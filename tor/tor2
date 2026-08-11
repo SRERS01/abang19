@@ -1,0 +1,27 @@
+The status active (exited) with ExecStart=/bin/true means the main master Tor service ran successfully, but it did not actually launch a Tor proxy instance.
+On modern Ubuntu systems, the tor.service file acts purely as a "master wrapper" manager. The actual background proxy process runs inside a separate, dynamically managed instance called tor@default.service.
+To turn on the actual Tor proxy connection, run these commands to activate the specific default instance:
+## 🛠️ Step 1: Start and Enable the Default Tor Instance
+Run these commands to tell systemd to start the actual network proxy daemon:
+
+# Start the real default Tor process
+sudo systemctl start tor@default
+# Enable it so it launches automatically on system boot
+sudo systemctl enable tor@default
+
+## 🔍 Step 2: Verify the Real Proxy Status
+Now, check the status of the specific proxy instance you just launched:
+
+sudo systemctl status tor@default
+
+Look for Active: active (running) in green text. Unlike the master wrapper, this one should stay actively running in the background and show a real process ID (PID).
+------------------------------
+## 🌐 Step 3: Test the Connection Proxy Port
+Once tor@default is running, confirm that it is actively listening on its standard local port (9050) to handle your python script requests: [1] 
+
+ss -nltp | grep tor
+
+You should see a line matching 127.0.0.1:9050 or *:9050 indicating the socket interface is completely open.
+Did the status change to active (running) when you checked the tor@default service endpoint?
+
+[1] [https://forum.torproject.org](https://forum.torproject.org/t/failed-to-start-tor-default-service-restarting-tor-services/7576)

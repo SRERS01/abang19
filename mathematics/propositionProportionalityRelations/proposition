@@ -1,0 +1,36 @@
+In mathematical logic, there are primarily two main categories of propositions: Simple (Atomic) propositions and Compound (Molecular) propositions. [1, 2, 3, 4, 5] 
+When these propositions are expanded into logical systems and structural forms, they are broken down into five core types based on how they connect and express mathematical truths. [6] 
+------------------------------
+## 1. The Two Main Categories
+
+* Simple (Atomic) Propositions: A statement that expresses a single, complete mathematical thought and cannot be broken down any further.
+* Example: 5 is a prime number. [7, 8] 
+* Compound (Molecular) Propositions: A statement formed by joining two or more simple propositions together using logical operators (like "and", "or", "if... then").
+* Example: 5 is a prime number and 4 is an even number. [9, 10, 11, 12, 13] 
+
+------------------------------
+## 2. The Five Core Structural Types
+In formal logic, mathematical propositions are classified by how they are built or verified:
+
+* Conjunctive Proposition (AND): Formed using the word "and" ($\land$). It is true only if both statements are true.
+* Example: $p \land q$ (2 is even and 3 is odd). [14, 15, 16] 
+* Disjunctive Proposition (OR): Formed using the word "or" ($\lor$). It is true if at least one of the statements is true.
+* Example: $p \lor q$ (7 < 10 or 7 = 10). [17] 
+* Conditional / Implication Proposition (IF... THEN): Formed using "if... then" (→). It represents a cause-and-effect mathematical relationship.
+* Example: p → q (If a triangle is equilateral, then it is equiangular). [18, 19] 
+* Biconditional Proposition (IF AND ONLY IF): Formed using "if and only if" ($\leftrightarrow$). It means both statements are logically equivalent and share the exact same truth value.
+* Example: $p \leftrightarrow q$ (A polygon is a triangle if and only if it has three sides). [20, 21, 22, 23, 24] 
+* Negative Proposition (NOT): Formed by reversing the truth value of an existing proposition using "not" ($\neg$ or ~).
+* Example: $\neg p$ (It is not true that 2 + 2 = 5). [25, 26, 27, 28] 
+
+------------------------------
+## 3. Classification by Truth Value (Tautologies vs. Contradictions)
+Mathematicians also classify propositions by evaluating their ultimate truth outcomes: [29] 
+
+* Tautology: A compound proposition that is always true, no matter what individual inputs you use. (e.g., $p \lor \neg p$: "x is equal to 5 OR x is not equal to 5"). [30, 31, 32, 33, 34] 
+* Contradiction / Absurdity: A proposition that is always false. (e.g., $p \land \neg p$: "x is even AND x is odd"). [35, 36] 
+* Contingency: A proposition whose truth value depends entirely on the variable or situation. (e.g., x + 2 = 5, which is only true if x = 3). [37] 
+
+I can show you how to map these structures out. Would you like to see how to construct a truth table for a conditional (p → q) proposition to see how its truth value is calculated?
+
+
