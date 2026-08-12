@@ -1,0 +1,6 @@
+/about
+/contact
+/.env
+/admin/config.php
+/database-backup.sql
+/config.json
