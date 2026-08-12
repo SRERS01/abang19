@@ -1,0 +1,3911 @@
+user@user-Latitude-3380:~$ curl -i -s -A "Mozilla/5.0" "https://www.1win.com"
+HTTP/2 301 
+date: Wed, 12 Aug 2026 10:15:51 GMT
+content-type: text/html
+content-length: 166
+location: https://1win.com/
+server: cloudflare
+x-frame-options: SAMEORIGIN
+cf-cache-status: DYNAMIC
+set-cookie: __cf_bm=jFt_J.JRqaclX_UZ5aCmwq9Is5poV3oHfAF8me8KGt0-1786529751.5457535-1.0.1.1-WQVTP5g3dLEyCQ7Pwwo5TagK8oThaknR3hQX6BZGpG2TBd0XEzR7KkVTCzcUtii3VNEQongIyyU2SGy_T3DxgoRIPDgX_62iSGzEFdL3YfrZdmDRhadf6vQeFRWK7QqpHZiVJWm5w.9FmBACKlOqkw; HttpOnly; SameSite=None; Secure; Path=/; Domain=www.1win.com; Expires=Wed, 12 Aug 2026 10:45:51 GMT
+server-timing: cf-cache;desc="DYNAMIC"
+cf-ray: a29eb8a32ef8cdbf-DLA
+alt-svc: h3=":443"; ma=86400
+
+<html>
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>openresty</center>
+</body>
+</html>
+user@user-Latitude-3380:~$ curl -i -s -A "Mozilla/5.0" "https://forum.1win.com"
+HTTP/2 200 
+date: Wed, 12 Aug 2026 10:20:50 GMT
+content-type: text/html;charset=UTF-8
+x-ips-loggedin: 0
+server-timing: cf-cache;desc="DYNAMIC"
+vary: Cookie, Accept-Encoding
+x-xss-protection: 0
+x-xss-protection: 1; mode=block
+x-frame-options: sameorigin
+x-frame-options: SAMEORIGIN
+content-security-policy: frame-ancestors 'self'
+x-content-security-policy: frame-ancestors 'self'
+referrer-policy: strict-origin-when-cross-origin
+last-modified: Wed, 12 Aug 2026 10:20:50 GMT
+expires: Wed, 12 Aug 2026 10:35:50 GMT
+cache-control: no-cache="Set-Cookie", max-age=900, public, s-maxage=900, stale-while-revalidate, stale-if-error
+x-content-type-options: nosniff
+x-envoy-upstream-service-time: 179
+server: cloudflare
+cf-cache-status: DYNAMIC
+set-cookie: ips4_IPSSessionFront=6cedb7a881d8c69a92658343887c58a9; path=/; secure; HttpOnly
+set-cookie: __cf_bm=IAySKtWwITr7egztWrgSiep2fVTpoyrErogaPZVf2Us-1786530049.7644954-1.0.1.1-ONeSaShi4ADxNNwI46sdQoWCc2OvGUHznl9Mer5XW2GxjaLG6u44m7MeAPppYBSn067AohaGi0Lo1iuZWcxi5H5YdJuI19apzJil3P_AWDp8q8OEb0yBT7LTOypmTY6m7D0nrmQ98TNYf8dsjkvEWw; HttpOnly; SameSite=None; Secure; Path=/; Domain=forum.1win.com; Expires=Wed, 12 Aug 2026 10:50:50 GMT
+cf-ray: a29ebfeb0f31988d-DLA
+alt-svc: h3=":443"; ma=86400
+
+<!DOCTYPE html>
+<html lang="en-US" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+        
+		<title>1win Forum | Discuss Betting, Sports, and Casino Games</title>
+		
+		
+		
+		
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+	
+	
+
+
+	<meta name="twitter:card" content="summary" />
+
+
+
+
+	
+		
+			
+				<meta property="og:title" content="1win Forum">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:type" content="website">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:url" content="https://forum.1win.com">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:site_name" content="1win Forum">
+			
+		
+	
+
+	
+		
+			
+				<meta property="og:locale" content="en_US">
+			
+		
+	
+
+	
+		
+			
+				<meta name="description" content="Connect with thousands of players on the official 1win Forum! Discuss betting strategies, exchange sports predictions, explore casino games, crypto trends, and much more. Join the community today and enhance your 1win experience!">
+			
+		
+	
+
+
+	
+		<link rel="canonical" href="https://forum.1win.com" />
+	
+
+
+
+
+
+<link rel="manifest" href="https://forum.1win.com/manifest.webmanifest/">
+<meta name="msapplication-config" content="https://forum.1win.com/browserconfig.xml/">
+<meta name="msapplication-starturl" content="/">
+<meta name="application-name" content="1win Forum">
+<meta name="apple-mobile-web-app-title" content="1win Forum">
+
+	<meta name="theme-color" content="#141415">
+
+
+
+
+
+
+
+
+
+
+
+		
+
+
+
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/341e4a57816af3ba440d891ca87450ff_framework.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/05e81b71abe4f22d6eb8d1a929494829_responsive.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/20446cf2d164adcc029377cb04d43d17_flags.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/5e53142098efe430fe4640eabd79b3c6_menuicons.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/90eb5adf50a8c640f633d47fd7eb1778_core.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/5a0da001ccc2200dc5625c3f3934497d_core_responsive.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/62e269ced0fdab7e30e026f1d30ae516_forums.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+	<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/76e62c573090645fb99a15a363d8620e_forums_responsive.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+
+
+
+
+<link rel='stylesheet' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/css_built_3/258adbb6e4f3e83cd3b355f84e3fa002_custom.css.gz?v=4a676ae7ca1777471625' media='all'>
+
+
+
+
+<style type='text/css'>
+	
+.app_cms_pagebuilderupload_4tdn990ef {
+
+}
+</style>
+
+        
+		 
+		
+
+	
+	<link rel='shortcut icon' href='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_11/1w-fav.png' type="image/png">
+
+        
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/v4-shims.css">
+
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&amp;subset=devanagari,latin-ext" rel="stylesheet">
+
+
+      	<!-- Google Tag Manager -->
+        <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+        new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+        j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+        'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+        })(window,document,'script','dataLayer','GTM-KGKQDC7');</script>
+        <!-- End Google Tag Manager -->
+		<!-- Amplitude Analytics -->
+        <script src="https://cdn.amplitude.com/libs/analytics-browser-2.11.12-min.js.gz"></script>
+        <script>
+            window.amplitude.init('494cccfe21f6ee005a8e5c7bb4dad4d3', {
+              autocapture: false,
+			  defaultTracking: false
+            });
+        </script>
+		<script>
+          // rm module plugin-session-replay-browser
+          /*window.addEventListener('load', () => {
+            const tag = document.querySelector('script[src*="plugin-session-replay-browser"]');
+            if (!tag) return;
+            const sessionReplayTracking = window.sessionReplay.plugin();
+            window.amplitude.remove(sessionReplayTracking.name);
+
+            tag.parentNode && tag.parentNode.removeChild(tag);
+          });*/
+      </script>
+        <!-- End Amplitude Analytics -->
+
+        
+	</head>
+	<body class="ipsApp ipsApp_front ipsJS_none ipsClearfix" data-controller="core.front.core.app"  data-message=""  data-pageapp="forums" data-pagelocation="front" data-pagemodule="forums" data-pagecontroller="index"   >
+ 		
+
+		
+        
+
+        
+
+      	
+
+		  <a href="#ipsLayout_mainArea" class="ipsHide" title="Go to main content on this page" accesskey="m">Jump to content</a>
+        <div id="ipsLayout_header" class="ipsClearfix">
+			
+
+
+
+
+            <header>
+              
+   <div class='ipsLayout_container'>
+      <div id='yt__acme_header'>
+        <div class='yt__acme_header__logo'>
+		   
+
+
+<a href='https://forum.1win.com/' id='elLogo' accesskey='1'><img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_11/logo.png.cd90f035f2e129b7ed3666e66dc2de32.png" alt='1win Forum'></a>
+
+        </div>
+        <ul id='yt__acme_nav__primary' data-role="primaryNavBar">
+          
+
+
+
+	
+		
+		
+			
+		
+		<li class="ipsNavBar_active" data-active id="elNavSecondary_1" data-role="navBarItem" data-navapp="core" data-navext="CustomItem">
+			
+			
+				<a href="/"  data-navitem-id="1" data-navdefault>
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--1">
+  
+</div>
+        
+    </div>
+
+					Forum
+				</a>
+			
+			
+		</li>
+	
+	
+
+	
+		
+		
+		<li  id="elNavSecondary_39" data-role="navBarItem" data-navapp="core" data-navext="CustomItem">
+			
+			
+				<a href="https://1win-resmi.com/casino?p=2p7l" target="_blank"  rel="noopener"  data-navitem-id="39" >
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--2">
+  
+</div>
+        
+    </div>
+
+					Casino 
+				</a>
+			
+			
+		</li>
+	
+	
+
+	
+		
+		
+		<li  id="elNavSecondary_40" data-role="navBarItem" data-navapp="core" data-navext="CustomItem">
+			
+			
+				<a href="https://1win-resmi.com/betting/?p=2p7l" target="_blank"  rel="noopener"  data-navitem-id="40" >
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--3">
+  
+</div>
+        
+    </div>
+
+					Betting
+				</a>
+			
+			
+		</li>
+	
+	
+
+	
+		
+		
+		<li  id="elNavSecondary_42" data-role="navBarItem" data-navapp="core" data-navext="CustomItem">
+			
+			
+				<a href="https://1win-resmi.com/free-money/?p=2p7l" target="_blank"  rel="noopener"  data-navitem-id="42" >
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--4">
+  
+</div>
+        
+    </div>
+
+					Free Money
+				</a>
+			
+			
+		</li>
+	
+	
+
+
+
+         <li class='ipsHide' id='elNavigationMore' data-role='navMore'>
+            <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore' id='elNavigationMore_dropdown'>More</a>
+            <ul class='ipsNavBar_secondary ipsHide' data-role='secondaryNavBar'>
+              <li class='ipsHide' id='elNavigationMore_more' data-role='navMore'>
+                <a href='#' data-ipsMenu data-ipsMenu-appendTo='#elNavigationMore_more' id='elNavigationMore_more_dropdown'>More <i class='fa fa-caret-down'></i></a>
+                <ul class='ipsHide ipsMenu ipsMenu_auto' id='elNavigationMore_more_dropdown_menu' data-role='moreDropdown'></ul>
+              </li>
+            </ul>
+          </li>
+		
+        </ul>
+        
+        <div class="mobile-head-nav">
+           
+          
+        <div class="ipsToolList-wrapper">
+         
+			<ul class='ipsToolList'>
+              <li>
+                <a href='/login/' id='elSigninButton_mobile' class='ipsButton ipsButton_alternate ipsButton_smalling'>Sign In</a>
+              </li>
+              
+              <li>
+                
+                <a href='https://forum.1win.com/register/' data-ipsDialog data-ipsDialog-size='narrow' data-ipsDialog-title='Sign Up' data-ipsDialog-fixed='true' id='elRegisterButton_mobile' class='ipsButton ipsButton_positive ipsButton_smalling  ipsButton_important'>Sign Up</a>
+                
+              </li>
+              
+          </ul>
+          
+        </div>
+        
+        </div>
+  
+
+         <div class='yt__acme_header__userpanel'>
+                 
+        <div class='yt__acme_header__search'>
+           
+
+	<div id="elSearchWrapper">
+		<div id='elSearch' data-controller="core.front.core.quickSearch">
+			<form accept-charset='utf-8' action='//forum.1win.com/search/?do=quicksearch' method='post'>
+                <input type='search' id='elSearchField' placeholder='Search...' name='q' autocomplete='off' aria-label='Search'>
+             
+ <details class='cSearchFilter' style='display: none'>
+                    <summary class='cSearchFilter__text'></summary>
+                    <ul class='cSearchFilter__menu'>
+                        
+                        <li><label><input type="radio" name="type" value="all"  checked><span class='cSearchFilter__menuText'>Everywhere</span></label></li>
+                        
+                        
+                            <li><label><input type="radio" name="type" value="core_statuses_status"><span class='cSearchFilter__menuText'>Status Updates</span></label></li>
+                        
+                            <li><label><input type="radio" name="type" value="forums_topic"><span class='cSearchFilter__menuText'>Topics</span></label></li>
+                        
+                            <li><label><input type="radio" name="type" value="gallery_image"><span class='cSearchFilter__menuText'>Images</span></label></li>
+                        
+                            <li><label><input type="radio" name="type" value="gallery_album_item"><span class='cSearchFilter__menuText'>Albums</span></label></li>
+                        
+                            <li><label><input type="radio" name="type" value="calendar_event"><span class='cSearchFilter__menuText'>Events</span></label></li>
+                        
+                            <li><label><input type="radio" name="type" value="cms_pages_pageitem"><span class='cSearchFilter__menuText'>Pages</span></label></li>
+                        
+                            <li><label><input type="radio" name="type" value="nexus_package_item"><span class='cSearchFilter__menuText'>Products</span></label></li>
+                        
+                            <li><label><input type="radio" name="type" value="core_members"><span class='cSearchFilter__menuText'>Members</span></label></li>
+                        
+                    </ul>
+                </details>
+
+
+				<button class='cSearchSubmit js-cSearchSubmit' type="submit" aria-label='Search'>
+              
+<svg width="16" height="16" viewBox="0 0 16 16" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_442_5534)">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M7.28234 1.88661C4.37544 1.88661 2.01893 4.24312 2.01893 7.15002C2.01893 10.0569 4.37544 12.4134 7.28234 12.4134C8.67876 12.4134 9.9465 11.8708 10.8894 10.9832C11.9102 10.0221 12.5458 8.661 12.5458 7.15002C12.5458 4.24312 10.1892 1.88661 7.28234 1.88661ZM0.245117 7.15002C0.245117 3.26347 3.39579 0.112793 7.28234 0.112793C11.1689 0.112793 14.3196 3.26347 14.3196 7.15002C14.3196 8.8409 13.7224 10.3933 12.729 11.6063L15.4952 14.3726C15.8416 14.7189 15.8416 15.2805 15.4952 15.6268C15.1488 15.9732 14.5873 15.9732 14.2409 15.6268L11.4413 12.8273C10.2764 13.6818 8.83774 14.1872 7.28234 14.1872C3.39579 14.1872 0.245117 11.0366 0.245117 7.15002Z" />
+</g>
+<defs>
+<clipPath id="clip0_442_5534">
+<rect width="16" height="16"/>
+</clipPath>
+</defs>
+</svg>
+</button>
+			</form>
+		</div>
+	</div>
+
+        </div>
+
+
+           
+           
+
+        
+		   
+
+	<ul id="elUserNav" class="ipsList_inline cSignedOut ipsResponsive_showDesktop">
+		
+        
+		
+        
+        
+            
+            
+	
+
+
+	<li class='cUserNav_icon ipsHide' id='elCart_container'></li>
+	<li class='elUserNav_sep ipsHide' id='elCart_sep'></li>
+
+<li id="elSignInLink">
+                <a class="ipsButton ipsButton_alternate" href="/login/" data-ipsmenu-closeonclick="false" data-ipsmenu id="elUserSignIn">
+                    Sign In
+                </a>
+                
+<div id='elUserSignIn_menu' class='ipsMenu ipsMenu_auto ipsHide'>
+	<form accept-charset='utf-8' method='post' action='/login/'>
+		<input type="hidden" name="csrfKey" value="0310c16391eb3864069f36422f022042">
+		<input type="hidden" name="ref" value="aHR0cHM6Ly9mb3J1bS4xd2luLmNvbS8=">
+		<div data-role="loginForm">
+			
+			
+			
+				
+<div class="ipsPad ipsForm ipsForm_vertical">
+	<h4 class="ipsType_sectionHead">Sign In</h4>
+	<br><br>
+	<ul class='ipsList_reset'>
+		<li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+			
+			
+				<input type="email" placeholder="Email Address" name="auth" autocomplete="email">
+			
+		</li>
+		<li class="ipsFieldRow ipsFieldRow_noLabel ipsFieldRow_fullWidth">
+			<input type="password" placeholder="Password" name="password" autocomplete="current-password">
+		</li>
+		<li class="ipsFieldRow ipsFieldRow_checkbox ipsClearfix">
+			<span class="ipsCustomInput">
+				<input type="checkbox" name="remember_me" id="remember_me_checkbox" value="1" checked aria-checked="true">
+				<span></span>
+			</span>
+			<div class="ipsFieldRow_content">
+				<label class="ipsFieldRow_label" for="remember_me_checkbox">Remember me</label>
+			</div>
+		</li>
+		<li class="ipsFieldRow ipsFieldRow_fullWidth" >
+          			
+				<p class="ipsType_small"  style="margin-bottom: 15px">
+					
+						<a href='https://forum.1win.com/lostpassword/' data-ipsDialog data-ipsDialog-title='Forgot your password?'>
+					
+					Forgot your password?</a>
+				</p>
+			
+			<button type="submit" name="_processLogin" value="usernamepassword" class="ipsButton ipsButton_primary ipsButton_small" id="elSignIn_submit">Sign In</button>
+		</li>
+	</ul>
+</div>
+			
+		</div>
+	</form>
+</div>
+            </li>
+            
+        
+		
+			<li>
+				
+					<a href="https://forum.1win.com/register/" data-ipsdialog data-ipsdialog-size="narrow" data-ipsdialog-title="Sign Up"  id="elRegisterButton" class="ipsButton ipsButton_positive ">Sign Up</a>
+				
+			</li>
+		
+	</ul>
+
+           
+<ul class='ipsMobileHamburger ipsList_reset ipsResponsive_hideDesktop'>
+	<li data-ipsDrawer data-ipsDrawer-drawerElem='#elMobileDrawer' class='mobile-open-menu'>
+		<a href='#' >
+			
+			
+			
+			
+		</a>
+	</li>
+</ul>
+        </div>
+ 
+ 
+      </div>
+	</div>
+
+            </header>
+            
+
+
+
+<div id='yt__acme_nav' class='yt__acme_nav_nosubnav '>
+  <div class='ipsLayout_container'>
+    
+
+    
+  </div>
+</div>
+
+
+            
+          	<!-- 
+<ul id='elMobileNav' class='ipsResponsive_hideDesktop' data-controller='core.front.core.mobileNav'>
+	
+	
+	
+	<li class='ipsHide'>
+		<a data-action="defaultStream" href='https://forum.1win.com/discover/'><i class="fa fa-newspaper-o" aria-hidden="true"></i></a>
+	</li>
+
+	
+
+	
+		<li class='ipsJS_show'>
+			<a href='https://forum.1win.com/search/'><i class='fa fa-search'></i></a>
+		</li>
+	
+</ul>
+ -->
+          
+		</div>
+        
+		<main id="ipsLayout_body" class="ipsLayout_container">
+          
+			<div id="ipsLayout_contentArea">
+               
+<nav class='ipsBreadcrumb ipsFaded_withHover'>
+	
+
+	<ul data-role="breadcrumbList">
+		<li>
+			<a title="Home" href='https://forum.1win.com/'>
+				<span>Home</span>
+			</a>
+		</li>
+		
+		
+	</ul>
+</nav>
+              <div class="ipsHide ipsPageHeader ipsClearfix ipsMargin_bottom cForumHeader ipsHeaderButtons ipsFlex ipsFlex-ai:center ipsFlex-jc:between">
+                        <h1 class="ipsType_pageTitle ipsFlex-flex:11 ipsType_break">
+                            Forums
+                        </h1>
+                        
+                    </div>
+              	
+				<div id="ipsLayout_contentWrapper">
+                  
+
+					<div id="ipsLayout_mainArea">
+                      
+
+
+						
+						
+						
+                      
+						
+
+
+                      	
+
+
+	<div class='cWidgetContainer '  data-role='widgetReceiver' data-orientation='horizontal' data-widgetArea='footer'>
+		<ul class='ipsList_reset'>
+			
+				
+					
+					<li class='ipsWidget ipsWidget_topicFeed ipsWidget_horizontal   ipsResponsive_block ipsResponsive_hideTablet ipsResponsive_hideDesktop' data-blockID='plugin_12_twoColumImage_x4ngvnkth' data-blockConfig="true" data-blockTitle="Two-column Image" data-blockErrorMessage="This block cannot be shown. This could be because it needs configuring, is unable to show on this page, or will show after reloading this page."  data-controller='core.front.widgets.block'>
+
+<div class="index-widget-grid">
+	
+		<a href="https://1wcjlr.com/free-money" class="widget-item">
+			
+				<p>Free money</p>
+			
+			
+				<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_07/29516897_MiniBanner.png.b6dfcf5e80a7bfbc8256e8b035a788c4.png.f8c0f7a489e769bc7c7801e9a6e11655.png" alt="" />
+			
+		</a>
+	
+		<a href="https://1wcjlr.com/bonuses" class="widget-item">
+			
+				<p>Bonus up to 500% for the first deposit</p>
+			
+			
+				<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_07/d0e70b4cbb9ab8afb1bc1065a3f8487a_mini-banner-2.png.55bb213efcedf688c0bb720db19610e0.png.fb0bc0eaee214a6467bf9dddba0e0b1f.png" alt="" />
+			
+		</a>
+	
+</div></li>
+				
+					
+					<li class='ipsWidget ipsWidget_topicFeed ipsWidget_horizontal   ipsResponsive_block' data-blockID='app_forums_topicFeed_ne3b2p2wb' data-blockConfig="true" data-blockTitle="Topic Feed" data-blockErrorMessage="This block cannot be shown. This could be because it needs configuring, is unable to show on this page, or will show after reloading this page."  data-controller='core.front.widgets.block'>
+
+	<h3 class='ipsWidget_title ipsType_reset'>Last Activity</h3>
+  <a href="https://t.me/+bXspDywdQTgxMTBi" target="_blank" class="banner-1win-tg">
+    </a>
+	
+		<div class='ipsWidget_inner'>
+			<ul class='ipsDataList'>
+				
+					
+
+
+<li class="ipsDataItem ipsDataItem_responsivePhoto   ">
+	
+	<div class='ipsDataItem_main'>
+		<h4 class='ipsDataItem_title ipsContained_container'>
+
+
+			<span class='ipsType_break ipsContained'>
+				<a href='https://forum.1win.com/topic/1742-%E2%80%8B-%C2%A0-%F0%9F%8E%AC-a-%E2%80%9Cmasterpiece%E2%80%9D-that-felt-boring-to-you-%E2%80%8B/' 
+                   data-ipsHover 
+                  data-ipsHover-target='https://forum.1win.com/topic/1742-%E2%80%8B-%C2%A0-%F0%9F%8E%AC-a-%E2%80%9Cmasterpiece%E2%80%9D-that-felt-boring-to-you-%E2%80%8B/?preview=1' data-ipsHover-timeout='1.5' >
+					
+					    🎬 A “Masterpiece” That Felt Boring to You ​
+				</a>
+			</span>
+			
+		</h4>
+
+		<p class='ipsType_reset ipsType_medium ipsType_light ipsType__info'>
+			By 
+
+
+<a href='https://forum.1win.com/profile/10517-alisa/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/10517-alisa/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Alisa's profile" class="ipsType_break">Alisa</a>, 
+          	<span class="tirs">|</span>
+			<time datetime='2026-07-31T21:08:24Z' title='07/31/2026 09:08  PM' data-short='Jul 31'>July 31</time>
+			<span class="tirs">|</span>
+			
+          	<br>
+				in <a href="/16-movies-series/">Movies &amp; Series</a>
+			
+		</p>
+		<ul class='ipsList_inline ipsClearfix ipsType_light'>
+			
+		</ul>
+
+	</div>
+	<ul class='ipsDataItem_stats'>
+		
+			
+				<li >
+
+
+					
+							
+
+						<span class='ipsDataItem_stats_number'>17</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_1938_2487)">
+						<path d="M2.3698 6.51814C3.0061 4.60925 4.74177 3.50151 5.50761 3.09399C5.52251 3.08617 5.53566 3.07541 5.54628 3.06237C5.5569 3.04933 5.56477 3.03426 5.56941 3.0181C5.57405 3.00193 5.57537 2.98499 5.57328 2.9683C5.57119 2.9516 5.56574 2.93551 5.55726 2.92098L4.91426 1.80727C4.86697 1.72486 4.84415 1.63067 4.84846 1.53575C4.85278 1.44083 4.88405 1.3491 4.93861 1.27131C4.99318 1.19352 5.06878 1.13289 5.15656 1.09652C5.24435 1.06015 5.34068 1.04955 5.43427 1.06595L10.2708 1.94901C10.3435 1.96118 10.4127 1.98931 10.4733 2.03137C10.534 2.07343 10.5845 2.12839 10.6214 2.1923C10.6579 2.25473 10.6803 2.32444 10.6868 2.39648C10.6934 2.46852 10.684 2.54112 10.6594 2.60914L9.06542 7.36129C9.03219 7.45014 8.97437 7.5277 8.89872 7.58492C8.82306 7.64215 8.73269 7.67667 8.63815 7.68445C8.54362 7.69224 8.44881 7.67298 8.36481 7.62891C8.28081 7.58484 8.21108 7.51779 8.16376 7.43557L7.40501 6.12138C7.39062 6.09649 7.36806 6.07734 7.34115 6.06719C7.31424 6.05705 7.28465 6.05653 7.25741 6.06573C6.33122 6.36952 3.44535 7.59805 3.56089 11.0232C3.56248 11.0787 3.54554 11.1331 3.51274 11.178C3.47994 11.2228 3.43314 11.2554 3.37975 11.2707C3.32635 11.286 3.26938 11.283 3.21784 11.2623C3.16629 11.2416 3.12311 11.2044 3.0951 11.1564C2.13985 9.50186 1.89612 7.9417 2.3698 6.51814Z" fill="#9AA1B1"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_1938_2487">
+						<rect width="12" height="12" fill="white"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					
+
+					
+
+
+
+
+				</li>
+			
+				<li >
+
+
+					
+
+					
+						<span class='ipsDataItem_stats_number'>8,684</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1938_2495)">
+                        <path d="M5.99996 1.13895C7.24094 1.13895 8.41795 1.5749 9.44234 2.38211C10.4667 3.18343 11.3385 4.35647 11.9648 5.82352C12.0116 5.93543 12.0116 6.06517 11.9648 6.17117C10.7121 9.10528 8.48185 10.8606 5.99996 10.8606H5.9941C3.51807 10.8606 1.28782 9.10528 0.0351164 6.17117C-0.0116888 6.06517 -0.0116407 5.93543 0.0351164 5.82352C1.2878 2.88928 3.51801 1.13895 5.9941 1.13895H5.99996ZM5.99996 3.57742C4.66206 3.57742 3.57712 4.66237 3.57711 6.00027C3.57711 7.33818 4.66205 8.42313 5.99996 8.42313C7.33784 8.42309 8.42281 7.33816 8.42281 6.00027C8.4228 4.66239 7.33784 3.57745 5.99996 3.57742ZM5.99996 4.53738C6.80764 4.53742 7.46284 5.19259 7.46285 6.00027C7.46285 6.80797 6.80765 7.46313 5.99996 7.46317C5.19224 7.46317 4.53707 6.80799 4.53707 6.00027C4.53707 5.90265 4.54714 5.80739 4.56539 5.71512H4.58297C5.23899 5.71506 5.77425 5.19834 5.80562 4.55008C5.86911 4.54166 5.93418 4.53738 5.99996 4.53738Z" fill="#9AA1B1"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1938_2495">
+                        <rect width="12" height="12" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+					
+
+
+
+
+				</li>
+			
+		
+	</ul>
+	<ul class='ipsDataItem_lastPoster ipsDataItem_withPhoto'>
+		<li>
+			
+				
+
+
+	<a href="https://forum.1win.com/profile/158-no_name/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/158-no_name/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to no_name's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/360_F_182297712_9CsfAgraiubHa1ZgwCtXzIIwwFTUcfUc.thumb.jpg.b9b11170bd87919e2fbb8c3f3b67fa80.jpg' alt='no_name' loading="lazy">
+	</a>
+
+			
+		</li>
+		<li>
+			
+				
+
+
+<a href='https://forum.1win.com/profile/158-no_name/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/158-no_name/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to no_name's profile" class="ipsType_break">no_name</a>
+			
+		</li>
+		<li class="ipsType_light ipsType_light--type-2">
+			<a href='https://forum.1win.com/topic/1742-%E2%80%8B-%C2%A0-%F0%9F%8E%AC-a-%E2%80%9Cmasterpiece%E2%80%9D-that-felt-boring-to-you-%E2%80%8B/' title='Go to last post' class='ipsType_blendLinks'>
+				<time datetime='2026-08-12T10:00:44Z' title='08/12/2026 10:00  AM' data-short='20 min'>20 minutes ago</time>
+			</a>
+		</li>
+	</ul>
+	
+</li>
+				
+					
+
+
+<li class="ipsDataItem ipsDataItem_responsivePhoto   ">
+	
+	<div class='ipsDataItem_main'>
+		<h4 class='ipsDataItem_title ipsContained_container'>
+
+
+			<span class='ipsType_break ipsContained'>
+				<a href='https://forum.1win.com/topic/1806-the-best-app-ever/' 
+                   data-ipsHover 
+                  data-ipsHover-target='https://forum.1win.com/topic/1806-the-best-app-ever/?preview=1' data-ipsHover-timeout='1.5' >
+					
+					The best app ever
+				</a>
+			</span>
+			
+		</h4>
+
+		<p class='ipsType_reset ipsType_medium ipsType_light ipsType__info'>
+			By 
+
+
+<a href='https://forum.1win.com/profile/9536-sinan123a/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/9536-sinan123a/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to sinan123a's profile" class="ipsType_break">sinan123a</a>, 
+          	<span class="tirs">|</span>
+			<time datetime='2026-08-10T10:05:35Z' title='08/10/2026 10:05  AM' data-short='2 dy'>Monday at 10:05  AM</time>
+			<span class="tirs">|</span>
+			
+          	<br>
+				in <a href="/13-introduction/">Introduction</a>
+			
+		</p>
+		<ul class='ipsList_inline ipsClearfix ipsType_light'>
+			
+		</ul>
+
+	</div>
+	<ul class='ipsDataItem_stats'>
+		
+			
+				<li >
+
+
+					
+							
+
+						<span class='ipsDataItem_stats_number'>7</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_1938_2487)">
+						<path d="M2.3698 6.51814C3.0061 4.60925 4.74177 3.50151 5.50761 3.09399C5.52251 3.08617 5.53566 3.07541 5.54628 3.06237C5.5569 3.04933 5.56477 3.03426 5.56941 3.0181C5.57405 3.00193 5.57537 2.98499 5.57328 2.9683C5.57119 2.9516 5.56574 2.93551 5.55726 2.92098L4.91426 1.80727C4.86697 1.72486 4.84415 1.63067 4.84846 1.53575C4.85278 1.44083 4.88405 1.3491 4.93861 1.27131C4.99318 1.19352 5.06878 1.13289 5.15656 1.09652C5.24435 1.06015 5.34068 1.04955 5.43427 1.06595L10.2708 1.94901C10.3435 1.96118 10.4127 1.98931 10.4733 2.03137C10.534 2.07343 10.5845 2.12839 10.6214 2.1923C10.6579 2.25473 10.6803 2.32444 10.6868 2.39648C10.6934 2.46852 10.684 2.54112 10.6594 2.60914L9.06542 7.36129C9.03219 7.45014 8.97437 7.5277 8.89872 7.58492C8.82306 7.64215 8.73269 7.67667 8.63815 7.68445C8.54362 7.69224 8.44881 7.67298 8.36481 7.62891C8.28081 7.58484 8.21108 7.51779 8.16376 7.43557L7.40501 6.12138C7.39062 6.09649 7.36806 6.07734 7.34115 6.06719C7.31424 6.05705 7.28465 6.05653 7.25741 6.06573C6.33122 6.36952 3.44535 7.59805 3.56089 11.0232C3.56248 11.0787 3.54554 11.1331 3.51274 11.178C3.47994 11.2228 3.43314 11.2554 3.37975 11.2707C3.32635 11.286 3.26938 11.283 3.21784 11.2623C3.16629 11.2416 3.12311 11.2044 3.0951 11.1564C2.13985 9.50186 1.89612 7.9417 2.3698 6.51814Z" fill="#9AA1B1"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_1938_2487">
+						<rect width="12" height="12" fill="white"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					
+
+					
+
+
+
+
+				</li>
+			
+				<li >
+
+
+					
+
+					
+						<span class='ipsDataItem_stats_number'>1,422</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1938_2495)">
+                        <path d="M5.99996 1.13895C7.24094 1.13895 8.41795 1.5749 9.44234 2.38211C10.4667 3.18343 11.3385 4.35647 11.9648 5.82352C12.0116 5.93543 12.0116 6.06517 11.9648 6.17117C10.7121 9.10528 8.48185 10.8606 5.99996 10.8606H5.9941C3.51807 10.8606 1.28782 9.10528 0.0351164 6.17117C-0.0116888 6.06517 -0.0116407 5.93543 0.0351164 5.82352C1.2878 2.88928 3.51801 1.13895 5.9941 1.13895H5.99996ZM5.99996 3.57742C4.66206 3.57742 3.57712 4.66237 3.57711 6.00027C3.57711 7.33818 4.66205 8.42313 5.99996 8.42313C7.33784 8.42309 8.42281 7.33816 8.42281 6.00027C8.4228 4.66239 7.33784 3.57745 5.99996 3.57742ZM5.99996 4.53738C6.80764 4.53742 7.46284 5.19259 7.46285 6.00027C7.46285 6.80797 6.80765 7.46313 5.99996 7.46317C5.19224 7.46317 4.53707 6.80799 4.53707 6.00027C4.53707 5.90265 4.54714 5.80739 4.56539 5.71512H4.58297C5.23899 5.71506 5.77425 5.19834 5.80562 4.55008C5.86911 4.54166 5.93418 4.53738 5.99996 4.53738Z" fill="#9AA1B1"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1938_2495">
+                        <rect width="12" height="12" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+					
+
+
+
+
+				</li>
+			
+		
+	</ul>
+	<ul class='ipsDataItem_lastPoster ipsDataItem_withPhoto'>
+		<li>
+			
+				
+
+
+	<a href="https://forum.1win.com/profile/159-bourbon1/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/159-bourbon1/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to bourbon1's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/images(1).thumb.jpg.4dffaad2721612169645d7146afc4fd0.jpg' alt='bourbon1' loading="lazy">
+	</a>
+
+			
+		</li>
+		<li>
+			
+				
+
+
+<a href='https://forum.1win.com/profile/159-bourbon1/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/159-bourbon1/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to bourbon1's profile" class="ipsType_break">bourbon1</a>
+			
+		</li>
+		<li class="ipsType_light ipsType_light--type-2">
+			<a href='https://forum.1win.com/topic/1806-the-best-app-ever/' title='Go to last post' class='ipsType_blendLinks'>
+				<time datetime='2026-08-12T09:20:54Z' title='08/12/2026 09:20  AM' data-short='59 min'>59 minutes ago</time>
+			</a>
+		</li>
+	</ul>
+	
+</li>
+				
+					
+
+
+<li class="ipsDataItem ipsDataItem_responsivePhoto   ">
+	
+	<div class='ipsDataItem_main'>
+		<h4 class='ipsDataItem_title ipsContained_container'>
+
+
+			<span class='ipsType_break ipsContained'>
+				<a href='https://forum.1win.com/topic/1733-%E2%80%8B-%E2%9A%A1-live-speed-roulette-11-seconds-to-make-your-move-%E2%80%8B/' 
+                   data-ipsHover 
+                  data-ipsHover-target='https://forum.1win.com/topic/1733-%E2%80%8B-%E2%9A%A1-live-speed-roulette-11-seconds-to-make-your-move-%E2%80%8B/?preview=1' data-ipsHover-timeout='1.5' >
+					
+					 ⚡ Live Speed Roulette: 11 Seconds to Make Your Move  ​
+				</a>
+			</span>
+			
+		</h4>
+
+		<p class='ipsType_reset ipsType_medium ipsType_light ipsType__info'>
+			By 
+
+
+<a href='https://forum.1win.com/profile/10517-alisa/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/10517-alisa/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Alisa's profile" class="ipsType_break">Alisa</a>, 
+          	<span class="tirs">|</span>
+			<time datetime='2026-07-31T07:35:02Z' title='07/31/2026 07:35  AM' data-short='Jul 31'>July 31</time>
+			<span class="tirs">|</span>
+			
+          	<br>
+				in <a href="/22-live-casino-games/">Live-Casino Games</a>
+			
+		</p>
+		<ul class='ipsList_inline ipsClearfix ipsType_light'>
+			
+		</ul>
+
+	</div>
+	<ul class='ipsDataItem_stats'>
+		
+			
+				<li >
+
+
+					
+							
+
+						<span class='ipsDataItem_stats_number'>7</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_1938_2487)">
+						<path d="M2.3698 6.51814C3.0061 4.60925 4.74177 3.50151 5.50761 3.09399C5.52251 3.08617 5.53566 3.07541 5.54628 3.06237C5.5569 3.04933 5.56477 3.03426 5.56941 3.0181C5.57405 3.00193 5.57537 2.98499 5.57328 2.9683C5.57119 2.9516 5.56574 2.93551 5.55726 2.92098L4.91426 1.80727C4.86697 1.72486 4.84415 1.63067 4.84846 1.53575C4.85278 1.44083 4.88405 1.3491 4.93861 1.27131C4.99318 1.19352 5.06878 1.13289 5.15656 1.09652C5.24435 1.06015 5.34068 1.04955 5.43427 1.06595L10.2708 1.94901C10.3435 1.96118 10.4127 1.98931 10.4733 2.03137C10.534 2.07343 10.5845 2.12839 10.6214 2.1923C10.6579 2.25473 10.6803 2.32444 10.6868 2.39648C10.6934 2.46852 10.684 2.54112 10.6594 2.60914L9.06542 7.36129C9.03219 7.45014 8.97437 7.5277 8.89872 7.58492C8.82306 7.64215 8.73269 7.67667 8.63815 7.68445C8.54362 7.69224 8.44881 7.67298 8.36481 7.62891C8.28081 7.58484 8.21108 7.51779 8.16376 7.43557L7.40501 6.12138C7.39062 6.09649 7.36806 6.07734 7.34115 6.06719C7.31424 6.05705 7.28465 6.05653 7.25741 6.06573C6.33122 6.36952 3.44535 7.59805 3.56089 11.0232C3.56248 11.0787 3.54554 11.1331 3.51274 11.178C3.47994 11.2228 3.43314 11.2554 3.37975 11.2707C3.32635 11.286 3.26938 11.283 3.21784 11.2623C3.16629 11.2416 3.12311 11.2044 3.0951 11.1564C2.13985 9.50186 1.89612 7.9417 2.3698 6.51814Z" fill="#9AA1B1"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_1938_2487">
+						<rect width="12" height="12" fill="white"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					
+
+					
+
+
+
+
+				</li>
+			
+				<li >
+
+
+					
+
+					
+						<span class='ipsDataItem_stats_number'>4,797</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1938_2495)">
+                        <path d="M5.99996 1.13895C7.24094 1.13895 8.41795 1.5749 9.44234 2.38211C10.4667 3.18343 11.3385 4.35647 11.9648 5.82352C12.0116 5.93543 12.0116 6.06517 11.9648 6.17117C10.7121 9.10528 8.48185 10.8606 5.99996 10.8606H5.9941C3.51807 10.8606 1.28782 9.10528 0.0351164 6.17117C-0.0116888 6.06517 -0.0116407 5.93543 0.0351164 5.82352C1.2878 2.88928 3.51801 1.13895 5.9941 1.13895H5.99996ZM5.99996 3.57742C4.66206 3.57742 3.57712 4.66237 3.57711 6.00027C3.57711 7.33818 4.66205 8.42313 5.99996 8.42313C7.33784 8.42309 8.42281 7.33816 8.42281 6.00027C8.4228 4.66239 7.33784 3.57745 5.99996 3.57742ZM5.99996 4.53738C6.80764 4.53742 7.46284 5.19259 7.46285 6.00027C7.46285 6.80797 6.80765 7.46313 5.99996 7.46317C5.19224 7.46317 4.53707 6.80799 4.53707 6.00027C4.53707 5.90265 4.54714 5.80739 4.56539 5.71512H4.58297C5.23899 5.71506 5.77425 5.19834 5.80562 4.55008C5.86911 4.54166 5.93418 4.53738 5.99996 4.53738Z" fill="#9AA1B1"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1938_2495">
+                        <rect width="12" height="12" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+					
+
+
+
+
+				</li>
+			
+		
+	</ul>
+	<ul class='ipsDataItem_lastPoster ipsDataItem_withPhoto'>
+		<li>
+			
+				
+
+
+	<a href="https://forum.1win.com/profile/161-satoshi/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/161-satoshi/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to satoshi's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/XTVCBTC--600.thumb.png.45f4ca4906088c378d73e34af6dbdbdf.png' alt='satoshi' loading="lazy">
+	</a>
+
+			
+		</li>
+		<li>
+			
+				
+
+
+<a href='https://forum.1win.com/profile/161-satoshi/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/161-satoshi/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to satoshi's profile" class="ipsType_break">satoshi</a>
+			
+		</li>
+		<li class="ipsType_light ipsType_light--type-2">
+			<a href='https://forum.1win.com/topic/1733-%E2%80%8B-%E2%9A%A1-live-speed-roulette-11-seconds-to-make-your-move-%E2%80%8B/' title='Go to last post' class='ipsType_blendLinks'>
+				<time datetime='2026-08-12T08:50:52Z' title='08/12/2026 08:50  AM' data-short='1 hr'>1 hour ago</time>
+			</a>
+		</li>
+	</ul>
+	
+</li>
+				
+					
+
+
+<li class="ipsDataItem ipsDataItem_responsivePhoto   ">
+	
+	<div class='ipsDataItem_main'>
+		<h4 class='ipsDataItem_title ipsContained_container'>
+
+
+			<span class='ipsType_break ipsContained'>
+				<a href='https://forum.1win.com/topic/1831-hice-un-retiro-de-300k-y-dice-que-se-acredito-pero-no-se-acredito-nada/' 
+                   data-ipsHover 
+                  data-ipsHover-target='https://forum.1win.com/topic/1831-hice-un-retiro-de-300k-y-dice-que-se-acredito-pero-no-se-acredito-nada/?preview=1' data-ipsHover-timeout='1.5' >
+					
+					HICE UN RETIRO DE 300K Y DICE QUE SE ACREDITO PERO NO SE ACREDITO NADA
+				</a>
+			</span>
+			
+		</h4>
+
+		<p class='ipsType_reset ipsType_medium ipsType_light ipsType__info'>
+			By 
+
+
+<a href='https://forum.1win.com/profile/19436-gonza/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/19436-gonza/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to gonza's profile" class="ipsType_break">gonza</a>, 
+          	<span class="tirs">|</span>
+			<time datetime='2026-08-11T23:41:06Z' title='08/11/2026 11:41  PM' data-short='10 hr'>10 hours ago</time>
+			<span class="tirs">|</span>
+			
+          	<br>
+				in <a href="/27-espa%C3%B1ol/">Español</a>
+			
+		</p>
+		<ul class='ipsList_inline ipsClearfix ipsType_light'>
+			
+		</ul>
+
+	</div>
+	<ul class='ipsDataItem_stats'>
+		
+			
+				<li >
+
+
+					
+							
+
+						<span class='ipsDataItem_stats_number'>2</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_1938_2487)">
+						<path d="M2.3698 6.51814C3.0061 4.60925 4.74177 3.50151 5.50761 3.09399C5.52251 3.08617 5.53566 3.07541 5.54628 3.06237C5.5569 3.04933 5.56477 3.03426 5.56941 3.0181C5.57405 3.00193 5.57537 2.98499 5.57328 2.9683C5.57119 2.9516 5.56574 2.93551 5.55726 2.92098L4.91426 1.80727C4.86697 1.72486 4.84415 1.63067 4.84846 1.53575C4.85278 1.44083 4.88405 1.3491 4.93861 1.27131C4.99318 1.19352 5.06878 1.13289 5.15656 1.09652C5.24435 1.06015 5.34068 1.04955 5.43427 1.06595L10.2708 1.94901C10.3435 1.96118 10.4127 1.98931 10.4733 2.03137C10.534 2.07343 10.5845 2.12839 10.6214 2.1923C10.6579 2.25473 10.6803 2.32444 10.6868 2.39648C10.6934 2.46852 10.684 2.54112 10.6594 2.60914L9.06542 7.36129C9.03219 7.45014 8.97437 7.5277 8.89872 7.58492C8.82306 7.64215 8.73269 7.67667 8.63815 7.68445C8.54362 7.69224 8.44881 7.67298 8.36481 7.62891C8.28081 7.58484 8.21108 7.51779 8.16376 7.43557L7.40501 6.12138C7.39062 6.09649 7.36806 6.07734 7.34115 6.06719C7.31424 6.05705 7.28465 6.05653 7.25741 6.06573C6.33122 6.36952 3.44535 7.59805 3.56089 11.0232C3.56248 11.0787 3.54554 11.1331 3.51274 11.178C3.47994 11.2228 3.43314 11.2554 3.37975 11.2707C3.32635 11.286 3.26938 11.283 3.21784 11.2623C3.16629 11.2416 3.12311 11.2044 3.0951 11.1564C2.13985 9.50186 1.89612 7.9417 2.3698 6.51814Z" fill="#9AA1B1"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_1938_2487">
+						<rect width="12" height="12" fill="white"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					
+
+					
+
+
+
+
+				</li>
+			
+				<li >
+
+
+					
+
+					
+						<span class='ipsDataItem_stats_number'>646</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1938_2495)">
+                        <path d="M5.99996 1.13895C7.24094 1.13895 8.41795 1.5749 9.44234 2.38211C10.4667 3.18343 11.3385 4.35647 11.9648 5.82352C12.0116 5.93543 12.0116 6.06517 11.9648 6.17117C10.7121 9.10528 8.48185 10.8606 5.99996 10.8606H5.9941C3.51807 10.8606 1.28782 9.10528 0.0351164 6.17117C-0.0116888 6.06517 -0.0116407 5.93543 0.0351164 5.82352C1.2878 2.88928 3.51801 1.13895 5.9941 1.13895H5.99996ZM5.99996 3.57742C4.66206 3.57742 3.57712 4.66237 3.57711 6.00027C3.57711 7.33818 4.66205 8.42313 5.99996 8.42313C7.33784 8.42309 8.42281 7.33816 8.42281 6.00027C8.4228 4.66239 7.33784 3.57745 5.99996 3.57742ZM5.99996 4.53738C6.80764 4.53742 7.46284 5.19259 7.46285 6.00027C7.46285 6.80797 6.80765 7.46313 5.99996 7.46317C5.19224 7.46317 4.53707 6.80799 4.53707 6.00027C4.53707 5.90265 4.54714 5.80739 4.56539 5.71512H4.58297C5.23899 5.71506 5.77425 5.19834 5.80562 4.55008C5.86911 4.54166 5.93418 4.53738 5.99996 4.53738Z" fill="#9AA1B1"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1938_2495">
+                        <rect width="12" height="12" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+					
+
+
+
+
+				</li>
+			
+		
+	</ul>
+	<ul class='ipsDataItem_lastPoster ipsDataItem_withPhoto'>
+		<li>
+			
+				
+
+
+	<a href="https://forum.1win.com/profile/226-nikita-1win/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/226-nikita-1win/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Nikita 1win's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_10/IMG_0519.thumb.jpeg.2cf1eb52b04aaba741a6bc96a9eb030f.jpeg' alt='Nikita 1win' loading="lazy">
+	</a>
+
+			
+		</li>
+		<li>
+			
+				
+
+
+<a href='https://forum.1win.com/profile/226-nikita-1win/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/226-nikita-1win/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Nikita 1win's profile" class="ipsType_break">Nikita 1win</a>
+			
+		</li>
+		<li class="ipsType_light ipsType_light--type-2">
+			<a href='https://forum.1win.com/topic/1831-hice-un-retiro-de-300k-y-dice-que-se-acredito-pero-no-se-acredito-nada/' title='Go to last post' class='ipsType_blendLinks'>
+				<time datetime='2026-08-12T06:37:35Z' title='08/12/2026 06:37  AM' data-short='3 hr'>3 hours ago</time>
+			</a>
+		</li>
+	</ul>
+	
+</li>
+				
+					
+
+
+<li class="ipsDataItem ipsDataItem_responsivePhoto   ">
+	
+	<div class='ipsDataItem_main'>
+		<h4 class='ipsDataItem_title ipsContained_container'>
+
+
+			<span class='ipsType_break ipsContained'>
+				<a href='https://forum.1win.com/topic/1763-%E2%80%8B-%F0%9F%92%A3-mines-how-much-pressure-can-you-handle-%E2%80%8B/' 
+                   data-ipsHover 
+                  data-ipsHover-target='https://forum.1win.com/topic/1763-%E2%80%8B-%F0%9F%92%A3-mines-how-much-pressure-can-you-handle-%E2%80%8B/?preview=1' data-ipsHover-timeout='1.5' >
+					
+					 💣 Mines: How Much Pressure Can You Handle?  ​
+				</a>
+			</span>
+			
+		</h4>
+
+		<p class='ipsType_reset ipsType_medium ipsType_light ipsType__info'>
+			By 
+
+
+<a href='https://forum.1win.com/profile/10517-alisa/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/10517-alisa/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Alisa's profile" class="ipsType_break">Alisa</a>, 
+          	<span class="tirs">|</span>
+			<time datetime='2026-08-03T16:27:11Z' title='08/03/2026 04:27  PM' data-short='Aug 3'>August 3</time>
+			<span class="tirs">|</span>
+			
+          	<br>
+				in <a href="/21-crash-games/">Crash Games</a>
+			
+		</p>
+		<ul class='ipsList_inline ipsClearfix ipsType_light'>
+			
+		</ul>
+
+	</div>
+	<ul class='ipsDataItem_stats'>
+		
+			
+				<li >
+
+
+					
+							
+
+						<span class='ipsDataItem_stats_number'>17</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_1938_2487)">
+						<path d="M2.3698 6.51814C3.0061 4.60925 4.74177 3.50151 5.50761 3.09399C5.52251 3.08617 5.53566 3.07541 5.54628 3.06237C5.5569 3.04933 5.56477 3.03426 5.56941 3.0181C5.57405 3.00193 5.57537 2.98499 5.57328 2.9683C5.57119 2.9516 5.56574 2.93551 5.55726 2.92098L4.91426 1.80727C4.86697 1.72486 4.84415 1.63067 4.84846 1.53575C4.85278 1.44083 4.88405 1.3491 4.93861 1.27131C4.99318 1.19352 5.06878 1.13289 5.15656 1.09652C5.24435 1.06015 5.34068 1.04955 5.43427 1.06595L10.2708 1.94901C10.3435 1.96118 10.4127 1.98931 10.4733 2.03137C10.534 2.07343 10.5845 2.12839 10.6214 2.1923C10.6579 2.25473 10.6803 2.32444 10.6868 2.39648C10.6934 2.46852 10.684 2.54112 10.6594 2.60914L9.06542 7.36129C9.03219 7.45014 8.97437 7.5277 8.89872 7.58492C8.82306 7.64215 8.73269 7.67667 8.63815 7.68445C8.54362 7.69224 8.44881 7.67298 8.36481 7.62891C8.28081 7.58484 8.21108 7.51779 8.16376 7.43557L7.40501 6.12138C7.39062 6.09649 7.36806 6.07734 7.34115 6.06719C7.31424 6.05705 7.28465 6.05653 7.25741 6.06573C6.33122 6.36952 3.44535 7.59805 3.56089 11.0232C3.56248 11.0787 3.54554 11.1331 3.51274 11.178C3.47994 11.2228 3.43314 11.2554 3.37975 11.2707C3.32635 11.286 3.26938 11.283 3.21784 11.2623C3.16629 11.2416 3.12311 11.2044 3.0951 11.1564C2.13985 9.50186 1.89612 7.9417 2.3698 6.51814Z" fill="#9AA1B1"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_1938_2487">
+						<rect width="12" height="12" fill="white"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					
+
+					
+
+
+
+
+				</li>
+			
+				<li >
+
+
+					
+
+					
+						<span class='ipsDataItem_stats_number'>5,225</span>
+						<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_1938_2495)">
+                        <path d="M5.99996 1.13895C7.24094 1.13895 8.41795 1.5749 9.44234 2.38211C10.4667 3.18343 11.3385 4.35647 11.9648 5.82352C12.0116 5.93543 12.0116 6.06517 11.9648 6.17117C10.7121 9.10528 8.48185 10.8606 5.99996 10.8606H5.9941C3.51807 10.8606 1.28782 9.10528 0.0351164 6.17117C-0.0116888 6.06517 -0.0116407 5.93543 0.0351164 5.82352C1.2878 2.88928 3.51801 1.13895 5.9941 1.13895H5.99996ZM5.99996 3.57742C4.66206 3.57742 3.57712 4.66237 3.57711 6.00027C3.57711 7.33818 4.66205 8.42313 5.99996 8.42313C7.33784 8.42309 8.42281 7.33816 8.42281 6.00027C8.4228 4.66239 7.33784 3.57745 5.99996 3.57742ZM5.99996 4.53738C6.80764 4.53742 7.46284 5.19259 7.46285 6.00027C7.46285 6.80797 6.80765 7.46313 5.99996 7.46317C5.19224 7.46317 4.53707 6.80799 4.53707 6.00027C4.53707 5.90265 4.54714 5.80739 4.56539 5.71512H4.58297C5.23899 5.71506 5.77425 5.19834 5.80562 4.55008C5.86911 4.54166 5.93418 4.53738 5.99996 4.53738Z" fill="#9AA1B1"/>
+                        </g>
+                        <defs>
+                        <clipPath id="clip0_1938_2495">
+                        <rect width="12" height="12" fill="white"/>
+                        </clipPath>
+                        </defs>
+                        </svg>
+					
+
+
+
+
+				</li>
+			
+		
+	</ul>
+	<ul class='ipsDataItem_lastPoster ipsDataItem_withPhoto'>
+		<li>
+			
+				
+
+
+	<a href="https://forum.1win.com/profile/55-omar/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/55-omar/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to omar's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c4c3%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EO%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='omar' loading="lazy">
+	</a>
+
+			
+		</li>
+		<li>
+			
+				
+
+
+<a href='https://forum.1win.com/profile/55-omar/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/55-omar/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to omar's profile" class="ipsType_break">omar</a>
+			
+		</li>
+		<li class="ipsType_light ipsType_light--type-2">
+			<a href='https://forum.1win.com/topic/1763-%E2%80%8B-%F0%9F%92%A3-mines-how-much-pressure-can-you-handle-%E2%80%8B/' title='Go to last post' class='ipsType_blendLinks'>
+				<time datetime='2026-08-11T16:45:55Z' title='08/11/2026 04:45  PM' data-short='17 hr'>17 hours ago</time>
+			</a>
+		</li>
+	</ul>
+	
+</li>
+				
+			</ul>
+		</div>
+	
+</li>
+				
+			
+		</ul>
+	</div>
+
+						
+
+<section>
+	<ol id='yt__acme_category' class='ipsList_reset cForumList' data-controller='core.global.core.table, forums.front.forum.forumList' data-baseURL=''>
+		
+			
+			<li data-categoryID='1' class='cForumRow__row cForumRow ipsBox ipsSpacer_bottom ipsResponsive_pull'>
+				<h2 class="ipsType_sectionTitle ipsType_reset cForumTitle">
+					
+	<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/IconBox.png.71d70ccde4dab871c81ccb8b82b3352d.png" alt='' class='ipsItemStatus ipsItemStatus_custom'>
+
+					<a href='/1-challenges-promotions/'>Challenges &amp; Promotions</a>
+                  <a href='#' class='ipsPos_right ipsJS_show ipsType_noUnderline cForumToggle' data-action='toggleCategory' data-ipsTooltip title='Toggle this category'></a>
+				</h2>
+				
+					<ol class="ipsDataList__forums ipsDataList ipsDataList_large ipsDataList_zebra" data-role="forums">
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="2">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/IconBox.png.e7916ca2e0772ecc86776e1ef6123993.png" alt='' class='ipsItemStatus ipsItemStatus_custom ipsItemStatus_read'>
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/2-casino-promotions/">Casino Promotions</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	<b>Explore this section to stay updated on the exciting weekly/montly challenges hosted by 1win Casino !</b> Seize the opportunity to compete for massive prize pools while enjoying your favorite games.
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">1k 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/55-omar/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/55-omar/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to omar's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c4c3%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EO%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='omar' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1735-%E2%80%8B-%F0%9F%8F%86-genesys-arena-150000-tournament-by-pragmatic-play/" title='​ 🏆 Genesys Arena: $150,000 Tournament by Pragmatic Play'>​ 🏆 Genesys Arena: $150,000 Tournament by Pragmatic Play</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/55-omar/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/55-omar/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to omar's profile" class="ipsType_break">omar</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1735-%E2%80%8B-%F0%9F%8F%86-genesys-arena-150000-tournament-by-pragmatic-play/' title='Go to last post'><time datetime='2026-08-03T16:11:11Z' title='08/03/2026 04:11  PM' data-short='Aug 3'>August 3</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="39">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/IconBox.png.d82f0d0627ef62abf1376f2fbdf6a45b.png" alt='' class='ipsItemStatus ipsItemStatus_custom ipsItemStatus_read'>
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/39-sportbook-promotion/">Sportbook Promotion</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Explore this section to stay updated on the exciting weekly/montly challenges hosted by 1win Sportbook! Seize the opportunity to compete for massive prize pools while enjoying your favorite games.
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">135 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/84-norisknowin/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/84-norisknowin/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to NoRiskNoWin's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/artworks-Uysv4SGRKy5UbWiZ-85INsw-t500x500.thumb.jpg.e0d3d99b5a1c804e4ce66b6b95d69345.jpg' alt='NoRiskNoWin' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1615-%E2%80%8B-%E2%9A%BD-football-world-cup-5000000-usdt-race-is-live/" title='​   ⚽ Football World Cup: 5,000,000 USDT Race Is Live'>​   ⚽ Football World Cup: 5,000,000 USDT Race Is Live</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/84-norisknowin/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/84-norisknowin/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to NoRiskNoWin's profile" class="ipsType_break">NoRiskNoWin</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1615-%E2%80%8B-%E2%9A%BD-football-world-cup-5000000-usdt-race-is-live/' title='Go to last post'><time datetime='2026-07-15T11:22:47Z' title='07/15/2026 11:22  AM' data-short='Jul 15'>July 15</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+					</ol>
+				
+			</li>
+			
+		
+			
+			<li data-categoryID='6' class='cForumRow__row cForumRow ipsBox ipsSpacer_bottom ipsResponsive_pull'>
+				<h2 class="ipsType_sectionTitle ipsType_reset cForumTitle">
+					
+	<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/IconBox.png.c05713307eb63a5e062f97a8e7159786.png" alt='' class='ipsItemStatus ipsItemStatus_custom'>
+
+					<a href='/6-1win/'>1win</a>
+                  <a href='#' class='ipsPos_right ipsJS_show ipsType_noUnderline cForumToggle' data-action='toggleCategory' data-ipsTooltip title='Toggle this category'></a>
+				</h2>
+				
+					<ol class="ipsDataList__forums ipsDataList ipsDataList_large ipsDataList_zebra" data-role="forums">
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="7">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/7-announcements/">Announcements</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Stay informed with the latest updates from 1win! This section covers important news, platform updates, feature releases, and essential service notifications.
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">371 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/125-marcos/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/125-marcos/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Marcos's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c4a262%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Marcos' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1667-%E2%80%8B-%F0%9F%9A%97-lucky-drive-32-%E2%80%94-porsche-911-gt3-rs-%E2%80%8B/" title='​ 🚗 LUCKY DRIVE 32 — Porsche 911 GT3 RS  ​'>​ 🚗 LUCKY DRIVE 32 — Porsche 911 GT3 RS  ​</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/125-marcos/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/125-marcos/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Marcos's profile" class="ipsType_break">Marcos</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1667-%E2%80%8B-%F0%9F%9A%97-lucky-drive-32-%E2%80%94-porsche-911-gt3-rs-%E2%80%8B/' title='Go to last post'><time datetime='2026-07-15T17:07:47Z' title='07/15/2026 05:07  PM' data-short='Jul 15'>July 15</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="8">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/8-casino-discussion/">Casino Discussion</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Share your experiences, discuss strategies, and talk about your favorite slots, table games, and live casino experiences.<span> </span>
+</p>
+
+</div>
+
+			
+          		
+				<ul class="ipsDataItem_subList ipsList_inline">
+					
+						<li class="">
+							<a href="/21-crash-games/">Crash Games</a>
+						</li>
+					
+						<li class="">
+							<a href="/22-live-casino-games/">Live-Casino Games</a>
+						</li>
+					
+						<li class="">
+							<a href="/23-slot-games/">Slot Games</a>
+						</li>
+					
+				</ul>
+			
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">2k 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/161-satoshi/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/161-satoshi/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to satoshi's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/XTVCBTC--600.thumb.png.45f4ca4906088c378d73e34af6dbdbdf.png' alt='satoshi' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1733-%E2%80%8B-%E2%9A%A1-live-speed-roulette-11-seconds-to-make-your-move-%E2%80%8B/" title='​ ⚡ Live Speed Roulette: 11 Seconds to Make Your Move  ​'>​ ⚡ Live Speed Roulette: 11 Seconds to Make Your Move  ​</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/161-satoshi/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/161-satoshi/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to satoshi's profile" class="ipsType_break">satoshi</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1733-%E2%80%8B-%E2%9A%A1-live-speed-roulette-11-seconds-to-make-your-move-%E2%80%8B/' title='Go to last post'><time datetime='2026-08-12T08:50:52Z' title='08/12/2026 08:50  AM' data-short='1 hr'>1 hour ago</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="10">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/10-sportbook-discussion/">Sportbook Discussion</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Join the conversation about all things sports betting! Discuss upcoming matches, share your betting strategies, and exchange insights on odds, predictions, and big wins.
+</p>
+
+</div>
+
+			
+          		
+				<ul class="ipsDataItem_subList ipsList_inline">
+					
+						<li class="">
+							<a href="/30-virtual-sports/">Virtual Sports</a>
+						</li>
+					
+						<li class="">
+							<a href="/31-esports/">eSports</a>
+						</li>
+					
+						<li class="">
+							<a href="/34-football/">Football</a>
+						</li>
+					
+						<li class="">
+							<a href="/40-tennis/">Tennis</a>
+						</li>
+					
+						<li class="">
+							<a href="/41-cricket/">Cricket</a>
+						</li>
+					
+				</ul>
+			
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">1.3k 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/25-ivan-1win/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/25-ivan-1win/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Ivan 1win's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_10/15(1).thumb.jpg.ea70498800456c3521f45e15a4cfc34e.jpg' alt='Ivan 1win' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1826-%D0%BD%D0%B5-%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D0%BB%D0%B8-%D1%84%D1%80%D0%B8%D0%B1%D0%B5%D1%82-%D0%B8%D0%B7-%D0%B7%D0%B0-%D0%B1%D0%B0%D0%B3%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D0%B0/" title='Не вернули фрибет из-за бага сайта'>Не вернули фрибет из-за бага сайта</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/25-ivan-1win/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/25-ivan-1win/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Ivan 1win's profile" class="ipsType_break">Ivan 1win</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1826-%D0%BD%D0%B5-%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D0%BB%D0%B8-%D1%84%D1%80%D0%B8%D0%B1%D0%B5%D1%82-%D0%B8%D0%B7-%D0%B7%D0%B0-%D0%B1%D0%B0%D0%B3%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D0%B0/' title='Go to last post'><time datetime='2026-08-10T14:06:14Z' title='08/10/2026 02:06  PM' data-short='1 dy'>Monday at 02:06  PM</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="11">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/11-poker/">Poker</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	A place for poker enthusiasts to connect, share strategies, and discuss everything from cash games to tournaments.
+</p>
+
+</div>
+
+			
+          		
+				<ul class="ipsDataItem_subList ipsList_inline">
+					
+						<li class="">
+							<a href="/32-poker-strategy/">Poker Strategy</a>
+						</li>
+					
+				</ul>
+			
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">912 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/62--/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/62--/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to ...'s profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46287%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3E%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='...' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1779-%E2%80%8B-%F0%9F%83%8F-make-them-pay-not-fold-%E2%80%8B/" title='​ 🃏 Make Them Pay, Not Fold  ​'>​ 🃏 Make Them Pay, Not Fold  ​</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/62--/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/62--/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to ...'s profile" class="ipsType_break">...</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1779-%E2%80%8B-%F0%9F%83%8F-make-them-pay-not-fold-%E2%80%8B/' title='Go to last post'><time datetime='2026-08-07T16:41:34Z' title='08/07/2026 04:41  PM' data-short='4 dy'>Friday at 04:41  PM</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+					</ol>
+				
+			</li>
+			
+		
+			
+			<li data-categoryID='12' class='cForumRow__row cForumRow ipsBox ipsSpacer_bottom ipsResponsive_pull'>
+				<h2 class="ipsType_sectionTitle ipsType_reset cForumTitle">
+					
+	<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/IconBox_LIVE.png.a49704167328f94c4a61bbed1fdd11d6.png" alt='' class='ipsItemStatus ipsItemStatus_custom'>
+
+					<a href='/12-off-topic/'>Off-topic</a>
+                  <a href='#' class='ipsPos_right ipsJS_show ipsType_noUnderline cForumToggle' data-action='toggleCategory' data-ipsTooltip title='Toggle this category'></a>
+				</h2>
+				
+					<ol class="ipsDataList__forums ipsDataList ipsDataList_large ipsDataList_zebra" data-role="forums">
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="13">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/13-introduction/">Introduction</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	New to the 1win community? Introduce yourself here! Share a bit about your interests, favorite games, and betting experiences. Connect with fellow members and get to know the 1win forum community.
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">605 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/159-bourbon1/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/159-bourbon1/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to bourbon1's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/images(1).thumb.jpg.4dffaad2721612169645d7146afc4fd0.jpg' alt='bourbon1' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1806-the-best-app-ever/" title='The best app ever'>The best app ever</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/159-bourbon1/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/159-bourbon1/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to bourbon1's profile" class="ipsType_break">bourbon1</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1806-the-best-app-ever/' title='Go to last post'><time datetime='2026-08-12T09:20:54Z' title='08/12/2026 09:20  AM' data-short='59 min'>59 minutes ago</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="14">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/14-crypto/">Crypto</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Discuss everything related to cryptocurrencies! From market trends and trading strategies to blockchain technology and the latest crypto news. 
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">2.6k 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/124-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BC%D0%B5%D0%BD/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/124-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BC%D0%B5%D0%BD/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to СуперМен's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362a5c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3E%D0%A1%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='СуперМен' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1639-%E2%80%8B-%F0%9F%93%88-july-bitcoin%E2%80%99s-greenest-month-or-just-another-coincidence-%E2%80%8B/" title='​ 📈 July: Bitcoin’s Greenest Month or Just Another Coincidence? ​'>​ 📈 July: Bitcoin’s Greenest Month or Just Another Coincidence? ​</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/124-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BC%D0%B5%D0%BD/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/124-%D1%81%D1%83%D0%BF%D0%B5%D1%80%D0%BC%D0%B5%D0%BD/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to СуперМен's profile" class="ipsType_break">СуперМен</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1639-%E2%80%8B-%F0%9F%93%88-july-bitcoin%E2%80%99s-greenest-month-or-just-another-coincidence-%E2%80%8B/' title='Go to last post'><time datetime='2026-07-28T14:33:36Z' title='07/28/2026 02:33  PM' data-short='Jul 28'>July 28</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="15">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/15-gaming/">Gaming</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	A space for all gaming enthusiasts! Discuss the latest video games, gaming news, and everything in between. Whether you’re into PC, console, or mobile gaming, connect with other players and share your passion here.
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">762 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/149-dodge_lover/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/149-dodge_lover/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Dodge_lover's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/images.thumb.jpg.5bdd6424a89310a40c33623bcc5b0420.jpg' alt='Dodge_lover' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1780-%E2%80%8B-%F0%9F%8E%AE-a-mission-so-annoying-it-deserves-its-own-villain-origin-story-%E2%80%8B/" title='​ 🎮 A Mission So Annoying It Deserves Its Own Villain Origin Story  ​'>​ 🎮 A Mission So Annoying It Deserves Its Own Villain Origin Story  ​</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/149-dodge_lover/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/149-dodge_lover/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Dodge_lover's profile" class="ipsType_break">Dodge_lover</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1780-%E2%80%8B-%F0%9F%8E%AE-a-mission-so-annoying-it-deserves-its-own-villain-origin-story-%E2%80%8B/' title='Go to last post'><time datetime='2026-08-10T06:42:27Z' title='08/10/2026 06:42  AM' data-short='2 dy'>Monday at 06:42  AM</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="16">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/16-movies-series/">Movies &amp; Series</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Chat about the latest blockbusters, binge-worthy TV series, and classic films! Share recommendations, discuss plot twists, and debate your favorite characters with fellow movie and TV enthusiasts.
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">649 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/158-no_name/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/158-no_name/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to no_name's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_02/360_F_182297712_9CsfAgraiubHa1ZgwCtXzIIwwFTUcfUc.thumb.jpg.b9b11170bd87919e2fbb8c3f3b67fa80.jpg' alt='no_name' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1742-%E2%80%8B-%C2%A0-%F0%9F%8E%AC-a-%E2%80%9Cmasterpiece%E2%80%9D-that-felt-boring-to-you-%E2%80%8B/" title='​    🎬 A “Masterpiece” That Felt Boring to You ​'>​    🎬 A “Masterpiece” That Felt Boring to You ​</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/158-no_name/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/158-no_name/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to no_name's profile" class="ipsType_break">no_name</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1742-%E2%80%8B-%C2%A0-%F0%9F%8E%AC-a-%E2%80%9Cmasterpiece%E2%80%9D-that-felt-boring-to-you-%E2%80%8B/' title='Go to last post'><time datetime='2026-08-12T10:00:44Z' title='08/12/2026 10:00  AM' data-short='20 min'>20 minutes ago</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="19">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/19-cybersport/">Cybersport</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Stay in the loop with the world of esports! Discuss major tournaments, top teams, player performances, and game strategies across titles like CS2, Dota 2, League of Legends, and more. Whether you’re a casual viewer or a hardcore fan, this is the place to talk all things competitive gaming.
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">566 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/59-hasnain/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/59-hasnain/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Hasnain's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c46277%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EH%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Hasnain' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1778-%E2%80%8B-%F0%9F%8E%AE-the-roster-move-that-looked-terrible-but-actually-worked-%E2%80%8B/" title='​ 🎮 The Roster Move That Looked Terrible but Actually Worked  ​'>​ 🎮 The Roster Move That Looked Terrible but Actually Worked  ​</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/59-hasnain/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/59-hasnain/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Hasnain's profile" class="ipsType_break">Hasnain</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1778-%E2%80%8B-%F0%9F%8E%AE-the-roster-move-that-looked-terrible-but-actually-worked-%E2%80%8B/' title='Go to last post'><time datetime='2026-08-07T14:50:26Z' title='08/07/2026 02:50  PM' data-short='4 dy'>Friday at 02:50  PM</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+					</ol>
+				
+			</li>
+			
+		
+			
+			<li data-categoryID='24' class='cForumRow__row cForumRow ipsBox ipsSpacer_bottom ipsResponsive_pull'>
+				<h2 class="ipsType_sectionTitle ipsType_reset cForumTitle">
+					
+	<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/IconBox_LIVE.png.03edfdd55d3bed7b235f013e1bb9bb60.png" alt='' class='ipsItemStatus ipsItemStatus_custom'>
+
+					<a href='/24-local/'>Local</a>
+                  <a href='#' class='ipsPos_right ipsJS_show ipsType_noUnderline cForumToggle' data-action='toggleCategory' data-ipsTooltip title='Toggle this category'></a>
+				</h2>
+				
+					<ol class="ipsDataList__forums ipsDataList ipsDataList_large ipsDataList_zebra" data-role="forums">
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="27">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/27-espa%C3%B1ol/">Español</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	<b>Comunicación y discusión en español.</b>
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">305 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/226-nikita-1win/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/226-nikita-1win/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Nikita 1win's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_10/IMG_0519.thumb.jpeg.2cf1eb52b04aaba741a6bc96a9eb030f.jpeg' alt='Nikita 1win' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1831-hice-un-retiro-de-300k-y-dice-que-se-acredito-pero-no-se-acredito-nada/" title='HICE UN RETIRO DE 300K Y DICE QUE SE ACREDITO PERO NO SE ACREDITO NADA'>HICE UN RETIRO DE 300K Y DICE QUE SE ACREDITO PERO NO SE ACREDITO NADA</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/226-nikita-1win/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/226-nikita-1win/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Nikita 1win's profile" class="ipsType_break">Nikita 1win</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1831-hice-un-retiro-de-300k-y-dice-que-se-acredito-pero-no-se-acredito-nada/' title='Go to last post'><time datetime='2026-08-12T06:37:35Z' title='08/12/2026 06:37  AM' data-short='3 hr'>3 hours ago</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="26">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/26-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9/">Русский</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	Общение и обсуждение на русском языке
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">313 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/25-ivan-1win/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/25-ivan-1win/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Ivan 1win's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_10/15(1).thumb.jpg.ea70498800456c3521f45e15a4cfc34e.jpg' alt='Ivan 1win' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1783-%D0%B2%D0%B0%D0%BD-%D0%B2%D0%B8%D0%BD-%D0%BD%D0%B5-%D1%85%D0%BE%D1%87%D0%B5%D1%82-%D1%80%D0%B5%D1%88%D0%B0%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B-%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%D0%BE%D0%B2-%D0%B8%D0%BC-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE-%D0%BF%D0%BB%D0%B5%D0%B2%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0-%D0%BD%D0%B0%D1%81/" title='ВАН ВИН НЕ ХОЧЕТ РЕШАТЬ ПРОБЛЕМЫ ИГРОКОВ. ИМ ПРОСТО ПЛЕВАТЬ НА НАС'>ВАН ВИН НЕ ХОЧЕТ РЕШАТЬ ПРОБЛЕМЫ ИГРОКОВ. ИМ ПРОСТО ПЛЕВАТЬ НА НАС</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/25-ivan-1win/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/25-ivan-1win/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Ivan 1win's profile" class="ipsType_break">Ivan 1win</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1783-%D0%B2%D0%B0%D0%BD-%D0%B2%D0%B8%D0%BD-%D0%BD%D0%B5-%D1%85%D0%BE%D1%87%D0%B5%D1%82-%D1%80%D0%B5%D1%88%D0%B0%D1%82%D1%8C-%D0%BF%D1%80%D0%BE%D0%B1%D0%BB%D0%B5%D0%BC%D1%8B-%D0%B8%D0%B3%D1%80%D0%BE%D0%BA%D0%BE%D0%B2-%D0%B8%D0%BC-%D0%BF%D1%80%D0%BE%D1%81%D1%82%D0%BE-%D0%BF%D0%BB%D0%B5%D0%B2%D0%B0%D1%82%D1%8C-%D0%BD%D0%B0-%D0%BD%D0%B0%D1%81/' title='Go to last post'><time datetime='2026-08-10T11:06:17Z' title='08/10/2026 11:06  AM' data-short='1 dy'>Monday at 11:06  AM</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="25">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/25-%E0%A4%B9%E0%A4%BF%E0%A4%A8%E0%A5%8D%E0%A4%A6%E0%A5%80-hindi/"> हिन्दी (Hindi)</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	हिंदी में संचार और चर्चा।
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">71 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/17866-kham/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/17866-kham/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Kham's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2391c462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EK%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Kham' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1423-withdrawal-problem-spp-354065/" title='Withdrawal Problem SPP-354065'>Withdrawal Problem SPP-354065</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/17866-kham/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/17866-kham/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Kham's profile" class="ipsType_break">Kham</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1423-withdrawal-problem-spp-354065/' title='Go to last post'><time datetime='2026-07-12T20:17:48Z' title='07/12/2026 08:17  PM' data-short='Jul 12'>July 12</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="28">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/28-portugu%C3%AAs/">Português</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	<b>Comunicação e discussão em português</b>
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">41 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/18629-diogo-lourenco/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/18629-diogo-lourenco/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Diogo Lourenco's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%236265c4%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ED%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Diogo Lourenco' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1722-melhor-casa-de-aposta/" title='Melhor casa de aposta'>Melhor casa de aposta</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/18629-diogo-lourenco/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/18629-diogo-lourenco/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Diogo Lourenco's profile" class="ipsType_break">Diogo Lourenco</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1722-melhor-casa-de-aposta/' title='Go to last post'><time datetime='2026-07-26T21:37:17Z' title='07/26/2026 09:37  PM' data-short='Jul 26'>July 26</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+							
+
+
+
+	<li class="cForumRow ipsDataItem ipsDataItem_responsivePhoto  ipsClearfix" data-forumID="29">
+		<div class="ipsDataItem_icon ipsDataItem_category">
+			
+			
+			
+				
+					
+						<span class='ipsItemStatus ipsItemStatus_large cForumIcon_normal ipsItemStatus_read' 
+
+
+
+>
+							<i class="fa fa-comments"></i>
+						</span>
+					
+				
+			
+		</div>
+		<div class="ipsDataItem_main">
+			<h4 class="ipsDataItem_title ipsType_break">
+				
+					<a href="/29-fran%C3%A7ais/">Français</a>
+				
+				
+			</h4>
+
+			
+				
+
+
+
+<div class='ipsType_richText ipsDataItem_meta ipsContained' data-controller='core.front.core.lightboxedImages' >
+<p>
+	<b>Communication et discussion en français</b>
+</p>
+
+</div>
+
+			
+          		
+		</div>
+		
+			<div class="ipsDataItem_stats ipsDataItem_statsLarge">
+				
+					<dl>
+						
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">
+						<dt class="ipsDataItem_stats_number ipsDataItem_stats_number__item">27 
+<svg width="12" height="12" viewBox="0 0 12 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_4003_10663)">
+<path d="M0.137737 10.2053C-0.104707 10.3372 -0.00368852 10.6575 0.25896 10.6952C1.14005 10.7666 2.40248 10.7872 3.547 10.5002C3.66748 10.47 3.79481 10.4838 3.90645 10.5382C4.71791 10.9339 5.66303 11.1448 6.64334 11.1096C9.53247 11.0154 11.9165 8.79244 11.9973 6.0985C12.0983 3.00894 9.33043 0.522218 5.99682 0.767122C3.28952 0.974349 1.08731 3.02778 0.905479 5.55217C0.832079 6.56167 1.05867 7.50902 1.52471 8.32363C1.61184 8.47594 1.62321 8.66351 1.53252 8.81373C1.20047 9.36377 0.753312 9.87736 0.137737 10.2053Z" fill="#9AA1B1"/>
+</g>
+<defs>
+<clipPath id="clip0_4003_10663">
+<rect width="12" height="12" fill="white"/>
+</clipPath>
+</defs>
+</svg>
+</dt></dt>
+					</dl>
+				
+				
+			</div>
+			<ul class="ipsDataItem_lastPoster ipsDataItem_withPhoto">
+				
+					<li>
+
+
+	<a href="https://forum.1win.com/profile/226-nikita-1win/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/226-nikita-1win/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Nikita 1win's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_10/IMG_0519.thumb.jpeg.2cf1eb52b04aaba741a6bc96a9eb030f.jpeg' alt='Nikita 1win' loading="lazy">
+	</a>
+</li>
+					<li class='ipsDataItem_lastPoster__title'><a href="https://forum.1win.com/topic/1727--/" title='..'>..</a></li>
+					<li class='ipsType_light ipsType_light--type-2'>
+						
+							By 
+
+
+<a href='https://forum.1win.com/profile/226-nikita-1win/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/226-nikita-1win/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Nikita 1win's profile" class="ipsType_break">Nikita 1win</a>, 
+						
+						
+							<a href='https://forum.1win.com/topic/1727--/' title='Go to last post'><time datetime='2026-07-28T07:14:29Z' title='07/28/2026 07:14  AM' data-short='Jul 28'>July 28</time></a>
+						
+					</li>
+				
+			</ul>	
+		
+		
+	</li>
+
+						
+					</ol>
+				
+			</li>
+			
+		
+		
+	</ol>
+</section>
+						
+					</div>
+					
+
+
+	<div id='ipsLayout_sidebar' class='ipsLayout_sidebarright ' data-controller='core.front.widgets.sidebar'>
+			
+		
+		
+		
+
+
+	<div class='cWidgetContainer '  data-role='widgetReceiver' data-orientation='vertical' data-widgetArea='sidebar'>
+		<ul class='ipsList_reset'>
+			
+				
+					
+					<li class='ipsWidget ipsWidget_topicFeed ipsWidget_vertical   ipsResponsive_block ipsResponsive_hidePhone' data-blockID='app_cms_pagebuilderupload_dg12yyrnf' data-blockConfig="true" data-blockTitle="Page Builder: Upload Images" data-blockErrorMessage="This block cannot be shown. This could be because it needs configuring, is unable to show on this page, or will show after reloading this page." data-blockBuilder="true" data-controller='core.front.widgets.block'>
+
+
+	
+
+<div class='app_cms_pagebuilderupload_dg12yyrnf ipsBox
+			
+			ipsType_medium'
+	 style='text-align:left;'>
+	
+	
+
+<div class="ipsCarousel ipsClearfix" data-ipsCarousel data-ipsCarousel-slideshow data-ipsCarousel-fullSizeItems data-ipsCarousel-shadows='false'>
+	<div class='ipsCarousel_inner'>
+		<ul class='ipsClearfix ipsList_reset' data-role='carouselItems'>
+			
+				<li class='ipsCarousel_item ipsAreaBackground_reset'>
+					<div class='ipsWidget_imageCarousel'>
+						
+							<a href="https://t.me/+bXspDywdQTgxMTBi">
+						
+							<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_08/789.png.2250c867d3d696c9291908c7c02c7735.png" style="max-height: 300px; max-width: none" alt=''>
+							
+						
+							</a>
+						
+					</div>
+				</li>
+			
+				<li class='ipsCarousel_item ipsAreaBackground_reset'>
+					<div class='ipsWidget_imageCarousel'>
+						
+							<a href="https://1wcjlr.com/freemoney?p=2p7l">
+						
+							<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2026_07/RR1000x1000.png.252027343fa4415322b6a01bd8d34cc8.png" style="max-height: 300px; max-width: none" alt=''>
+							
+						
+							</a>
+						
+					</div>
+				</li>
+			
+		</ul>
+	</div>
+	<span class='ipsCarousel_shadow ipsCarousel_shadowLeft'></span>
+    <span class='ipsCarousel_shadow ipsCarousel_shadowRight'></span>
+	<a href='#' class='ipsCarousel_nav ipsHide' data-action='prev'><i class='fa fa-chevron-left'></i></a>
+	<a href='#' class='ipsCarousel_nav ipsHide' data-action='next'><i class='fa fa-chevron-right'></i></a>
+</div>
+
+
+
+	
+</div>
+</li>
+				
+					
+					<li class='ipsWidget ipsWidget_topicFeed ipsWidget_vertical   ipsResponsive_block ipsResponsive_hideTablet ipsResponsive_hideDesktop' data-blockID='app_cms_pagebuilderupload_4tdn990ef' data-blockConfig="true" data-blockTitle="Page Builder: Upload Images" data-blockErrorMessage="This block cannot be shown. This could be because it needs configuring, is unable to show on this page, or will show after reloading this page." data-blockBuilder="true" data-controller='core.front.widgets.block'>
+
+
+	
+
+<div class='app_cms_pagebuilderupload_4tdn990ef ipsBox
+			ipsPad
+			ipsType_medium'
+	 style='text-align:left;'>
+	
+	
+
+<div class=''>
+	
+		<a href="https://1wcjlr.com/freemoney">
+	
+	<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2026_07/RR656x254.png.a3a90f6976c878db15dd9f3336a10a81.png" style="max-height: 300px; max-width: 100%;" alt='' class="ipsPageBuilderUpload">
+	
+	
+		</a>
+	
+</div>
+
+
+	
+</div>
+</li>
+				
+					
+					<li class='ipsWidget ipsWidget_topicFeed ipsWidget_vertical   ipsResponsive_block ipsResponsive_hidePhone' data-blockID='plugin_12_twoColumImage_wnifvn6qo' data-blockConfig="true" data-blockTitle="Two-column Image" data-blockErrorMessage="This block cannot be shown. This could be because it needs configuring, is unable to show on this page, or will show after reloading this page."  data-controller='core.front.widgets.block'>
+
+<div class="index-widget-grid">
+	
+		<a href="https://1wcjlr.com/freemoney?p=2p7l" class="widget-item">
+			
+				<p>Free money</p>
+			
+			
+				<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/29516897_MiniBanner.png.b6dfcf5e80a7bfbc8256e8b035a788c4.png" alt="" />
+			
+		</a>
+	
+		<a href="https://1wcjlr.com//bonuses?p=2p7l" class="widget-item">
+			
+				<p>Bonus up to 500% for the first deposit</p>
+			
+			
+				<img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_06/d0e70b4cbb9ab8afb1bc1065a3f8487a_mini-banner-2.png.55bb213efcedf688c0bb720db19610e0.png" alt="" />
+			
+		</a>
+	
+</div></li>
+				
+					
+					<li class='ipsWidget ipsWidget_topicFeed ipsWidget_vertical   ipsResponsive_block' data-blockID='app_forums_topicFeed_hnbvq7p43' data-blockConfig="true" data-blockTitle="Topic Feed" data-blockErrorMessage="This block cannot be shown. This could be because it needs configuring, is unable to show on this page, or will show after reloading this page."  data-controller='core.front.widgets.block'>
+
+	<h3 class='ipsWidget_title ipsType_reset'>Latest topics</h3>
+  <a href="https://t.me/+bXspDywdQTgxMTBi" target="_blank" class="banner-1win-tg">
+    </a>
+	
+		<div class='ipsWidget_inner'>
+			<ul class='ipsDataList ipsDataList_reducedSpacing ipsDataList__topics'>
+				
+					<li class='ipsDataItem '>
+						<div class='ipsDataItem_icon ipsPos_top'>
+							
+
+
+	<a href="https://forum.1win.com/profile/19436-gonza/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/19436-gonza/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to gonza's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c463%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EG%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='gonza' loading="lazy">
+	</a>
+
+						</div>
+						<div class='ipsDataItem_main cWidgetComments'>
+							<div class="ipsCommentCount ipsPos_right " data-ipsTooltip title='2 replies'>2</div>
+							
+															
+								<a href="https://forum.1win.com/topic/1831-hice-un-retiro-de-300k-y-dice-que-se-acredito-pero-no-se-acredito-nada/" title='View the topic HICE UN RETIRO DE 300K Y DICE QUE SE ACREDITO PERO NO SE ACREDITO NADA' class='ipsDataItem_title'>HICE UN RETIRO DE 300K Y DICE QUE SE ACREDITO PERO NO SE ACREDITO NADA</a>
+							<p class='ipsType_reset ipsType_light ipsType_blendLinks ipsType_break ipsType__info'>
+								
+
+
+<a href='https://forum.1win.com/profile/19436-gonza/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/19436-gonza/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to gonza's profile" class="ipsType_break">gonza</a> &middot; 
+                              <time datetime='2026-08-11T23:41:06Z' title='08/11/2026 11:41  PM' data-short='10 hr'>10 hours ago</time>
+							</p>
+						</div>
+					</li>
+				
+					<li class='ipsDataItem '>
+						<div class='ipsDataItem_icon ipsPos_top'>
+							
+
+
+	<a href="https://forum.1win.com/profile/11172-askeras/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/11172-askeras/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Askeras's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%2362c4b2%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EA%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Askeras' loading="lazy">
+	</a>
+
+						</div>
+						<div class='ipsDataItem_main cWidgetComments'>
+							<div class="ipsCommentCount ipsPos_right " data-ipsTooltip title='5 replies'>5</div>
+							
+															
+								<a href="https://forum.1win.com/topic/1826-%D0%BD%D0%B5-%D0%B2%D0%B5%D1%80%D0%BD%D1%83%D0%BB%D0%B8-%D1%84%D1%80%D0%B8%D0%B1%D0%B5%D1%82-%D0%B8%D0%B7-%D0%B7%D0%B0-%D0%B1%D0%B0%D0%B3%D0%B0-%D1%81%D0%B0%D0%B9%D1%82%D0%B0/" title='View the topic Не вернули фрибет из-за бага сайта' class='ipsDataItem_title'>Не вернули фрибет из-за бага сайта</a>
+							<p class='ipsType_reset ipsType_light ipsType_blendLinks ipsType_break ipsType__info'>
+								
+
+
+<a href='https://forum.1win.com/profile/11172-askeras/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/11172-askeras/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Askeras's profile" class="ipsType_break">Askeras</a> &middot; 
+                              <time datetime='2026-08-10T11:29:10Z' title='08/10/2026 11:29  AM' data-short='1 dy'>Monday at 11:29  AM</time>
+							</p>
+						</div>
+					</li>
+				
+					<li class='ipsDataItem '>
+						<div class='ipsDataItem_icon ipsPos_top'>
+							
+
+
+	<a href="https://forum.1win.com/profile/9536-sinan123a/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/9536-sinan123a/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to sinan123a's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23c462bb%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3ES%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='sinan123a' loading="lazy">
+	</a>
+
+						</div>
+						<div class='ipsDataItem_main cWidgetComments'>
+							<div class="ipsCommentCount ipsPos_right " data-ipsTooltip title='7 replies'>7</div>
+							
+															
+								<a href="https://forum.1win.com/topic/1806-the-best-app-ever/" title='View the topic The best app ever' class='ipsDataItem_title'>The best app ever</a>
+							<p class='ipsType_reset ipsType_light ipsType_blendLinks ipsType_break ipsType__info'>
+								
+
+
+<a href='https://forum.1win.com/profile/9536-sinan123a/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/9536-sinan123a/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to sinan123a's profile" class="ipsType_break">sinan123a</a> &middot; 
+                              <time datetime='2026-08-10T10:05:35Z' title='08/10/2026 10:05  AM' data-short='2 dy'>Monday at 10:05  AM</time>
+							</p>
+						</div>
+					</li>
+				
+					<li class='ipsDataItem '>
+						<div class='ipsDataItem_icon ipsPos_top'>
+							
+
+
+	<a href="https://forum.1win.com/profile/4258-mairin/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/4258-mairin/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Mairin's profile">
+		<img src='data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%201024%201024%22%20style%3D%22background%3A%23bac462%22%3E%3Cg%3E%3Ctext%20text-anchor%3D%22middle%22%20dy%3D%22.35em%22%20x%3D%22512%22%20y%3D%22512%22%20fill%3D%22%23ffffff%22%20font-size%3D%22700%22%20font-family%3D%22-apple-system%2C%20BlinkMacSystemFont%2C%20Roboto%2C%20Helvetica%2C%20Arial%2C%20sans-serif%22%3EM%3C%2Ftext%3E%3C%2Fg%3E%3C%2Fsvg%3E' alt='Mairin' loading="lazy">
+	</a>
+
+						</div>
+						<div class='ipsDataItem_main cWidgetComments'>
+							<div class="ipsCommentCount ipsPos_right " data-ipsTooltip title='1 reply'>1</div>
+							
+															
+								<a href="https://forum.1win.com/topic/1787-el-peor-juego/" title='View the topic El peor juego' class='ipsDataItem_title'>El peor juego</a>
+							<p class='ipsType_reset ipsType_light ipsType_blendLinks ipsType_break ipsType__info'>
+								
+
+
+<a href='https://forum.1win.com/profile/4258-mairin/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/4258-mairin/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Mairin's profile" class="ipsType_break">Mairin</a> &middot; 
+                              <time datetime='2026-08-09T20:27:43Z' title='08/09/2026 08:27  PM' data-short='2 dy'>Sunday at 08:27  PM</time>
+							</p>
+						</div>
+					</li>
+				
+					<li class='ipsDataItem '>
+						<div class='ipsDataItem_icon ipsPos_top'>
+							
+
+
+	<a href="https://forum.1win.com/profile/10517-alisa/" rel="nofollow" data-ipsHover data-ipsHover-width="370" data-ipsHover-target="https://forum.1win.com/profile/10517-alisa/?do=hovercard" class="ipsUserPhoto ipsUserPhoto_tiny" title="Go to Alisa's profile">
+		<img src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2026_04/IMAGE2026-04-09142606.thumb.jpg.7cbca17cde39191c3102aed7812d427f.jpg' alt='Alisa' loading="lazy">
+	</a>
+
+						</div>
+						<div class='ipsDataItem_main cWidgetComments'>
+							<div class="ipsCommentCount ipsPos_right " data-ipsTooltip title='9 replies'>9</div>
+							
+															
+								<a href="https://forum.1win.com/topic/1781-%E2%80%8B-%F0%9F%8E%AF-the-mistake-you-needed-to-make-more-than-once-%E2%80%8B/" title='View the topic ​ 🎯 The Mistake You Needed to Make More Than Once  ​' class='ipsDataItem_title'>​ 🎯 The Mistake You Needed to Make More Than Once  ​</a>
+							<p class='ipsType_reset ipsType_light ipsType_blendLinks ipsType_break ipsType__info'>
+								
+
+
+<a href='https://forum.1win.com/profile/10517-alisa/' rel="nofollow" data-ipsHover data-ipsHover-width='370' data-ipsHover-target='https://forum.1win.com/profile/10517-alisa/?do=hovercard&amp;referrer=https%253A%252F%252Fforum.1win.com%252F' title="Go to Alisa's profile" class="ipsType_break">Alisa</a> &middot; 
+                              <time datetime='2026-08-09T09:12:45Z' title='08/09/2026 09:12  AM' data-short='3 dy'>Sunday at 09:12  AM</time>
+							</p>
+						</div>
+					</li>
+				
+			</ul>
+		</div>
+	
+</li>
+				
+			
+		</ul>
+	</div>
+
+	</div>
+
+                  
+					</div>
+			</div>
+			
+		</main>
+      
+
+
+         <footer id="ipsLayout_footer" class="ipsClearfix">
+            
+<div class="colorScheme-dark">
+    <footer>
+        <div class="container_root footer_container">
+
+            <div class="header-row_root">
+                
+
+
+<a href='https://forum.1win.com/' id='elLogo' accesskey='1'><img src="//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_11/logo.png.cd90f035f2e129b7ed3666e66dc2de32.png" alt='1win Forum'></a>
+
+                <div class="header-row_line"></div>
+                <div class="tooltip_root" style='display: none'>
+                    <div class="tooltip_trigger">
+                        
+                        <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path
+                                d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z"
+                                fill="#0034B0"
+                                style="fill:#0034B0;fill:color(display-p3 0.0000 0.2039 0.6902);fill-opacity:1;" />
+                            <path
+                                d="M16.5572 2.44934L10.0004 7.21787L3.44374 2.44935C2.30594 3.43822 1.39382 4.68002 0.794942 6.08719L6.17502 9.99998L0.794922 13.9128C1.3938 15.32 2.3059 16.5618 3.4437 17.5506L10.0004 12.7821L16.5572 17.5506C17.695 16.5618 18.6071 15.32 19.2059 13.9128L13.8258 9.99998L19.2059 6.08718C18.6071 4.68 17.695 3.43822 16.5572 2.44934Z"
+                                fill="#E9EBEF"
+                                style="fill:#E9EBEF;fill:color(display-p3 0.9137 0.9216 0.9373);fill-opacity:1;" />
+                            <path
+                                d="M17.1145 2.97168L10.0009 8.14519L2.88735 2.97168C2.18398 3.68352 1.5867 4.50039 1.12113 5.39665L7.45064 9.99994L1.12109 14.6033C1.58666 15.4995 2.18395 16.3164 2.8873 17.0283L10.0009 11.8547L17.1145 17.0283C17.8179 16.3164 18.4152 15.4995 18.8808 14.6033L12.5512 9.99994L18.8807 5.39665C18.4152 4.50038 17.8178 3.68352 17.1145 2.97168Z"
+                                fill="#C8102E"
+                                style="fill:#C8102E;fill:color(display-p3 0.7843 0.0627 0.1804);fill-opacity:1;" />
+                            <path
+                                d="M13.125 19.502V13.125H19.502C19.8251 12.1418 20 11.0913 20 10C20 8.90868 19.8251 7.85819 19.502 6.875H13.125V0.497974C12.1418 0.174816 11.0913 0 10 0C8.90868 0 7.85819 0.174816 6.875 0.497974V6.875H0.497974C0.174816 7.85819 0 8.90868 0 10C0 11.0913 0.174816 12.1418 0.497974 13.125H6.875V19.502C7.85819 19.8251 8.90868 20 10 20C11.0913 20 12.1418 19.8251 13.125 19.502Z"
+                                fill="#E9EBEF"
+                                style="fill:#E9EBEF;fill:color(display-p3 0.9137 0.9216 0.9373);fill-opacity:1;" />
+                            <path
+                                d="M11.25 19.9226V11.25H19.9226C19.9737 10.8405 20 10.4233 20 10C20 9.57668 19.9737 9.15949 19.9226 8.75H11.25V0.0773656C10.8405 0.0263036 10.4233 0 10 0C9.57668 0 9.15949 0.0263047 8.74999 0.0773689V8.75H0.0773672C0.0263041 9.15949 0 9.57668 0 10C0 10.4233 0.0263041 10.8405 0.0773672 11.25H8.74999V19.9226C9.15949 19.9737 9.57668 20 10 20C10.4233 20 10.8405 19.9737 11.25 19.9226Z"
+                                fill="#C8102E"
+                                style="fill:#C8102E;fill:color(display-p3 0.7843 0.0627 0.1804);fill-opacity:1;" />
+                        </svg>
+                        <span>EN</span>
+                        
+
+                    </div>
+                    <div class="tooltip_tooltip tooltip_tooltip--mobile-left">
+                        <div class="tooltip_arrow"></div>
+                        <div class="tooltip__header">
+                            <div class="tooltip__title">
+                                Языки
+                            </div>
+                            <div class="tooltip__close">
+
+                            </div>
+                        </div>
+                        <div class="tooltip__body">
+                            
+                            
+                        </div>
+                    </div>
+                </div>
+                <button id='yt__acme_goup'>
+                    <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" fill="#9AA1B1"
+                            d="M2.55005 2.0001C2.55005 1.50304 2.95299 1.1001 3.45005 1.1001H12.4716C12.9687 1.1001 13.3716 1.50304 13.3716 2.0001C13.3716 2.49715 12.9687 2.9001 12.4716 2.9001H3.45005C2.95299 2.9001 2.55005 2.49715 2.55005 2.0001ZM7.06081 7.16138V14.0001C7.06081 14.4972 7.46376 14.9001 7.96081 14.9001C8.45787 14.9001 8.86081 14.4972 8.86081 14.0001V7.15749L11.0419 9.34789C11.3926 9.70012 11.9625 9.70133 12.3147 9.35061C12.6669 8.99989 12.6681 8.43005 12.3174 8.07783L8.60131 4.34583C8.43247 4.17628 8.20307 4.08093 7.96379 4.08087C7.96325 4.08087 7.96272 4.08087 7.96218 4.08087C7.96172 4.08087 7.96127 4.08087 7.96081 4.08087C7.69042 4.08087 7.44789 4.2001 7.28291 4.38886L3.60616 8.07749C3.25525 8.42953 3.25617 8.99938 3.60821 9.35028C3.96025 9.70119 4.5301 9.70027 4.881 9.34823L7.06081 7.16138Z"
+                            />
+                    </svg>
+                </button>
+            </div>
+
+            <div class="nav-row_root footer_navigationRow">
+                <div class="nav-row_navigation">
+                    <div class="navigation-section_root">
+                        <div class="accordion-heading_root">
+                            <div class="accordion-heading_content">Menu</div>
+                          	<button class="base_root base_size-m-semibold base_variant-secondary" type="button">
+                                <div style="display: contents;">
+                                    <div class="icon-box_root icon-box_size-m"><svg xmlns="http://www.w3.org/2000/svg"
+                                            viewBox="0 0 16 16" role="presentation"
+                                            class="icon-base_root-ZOL7i accordion-heading_icon" width="16" height="16">
+                                            <path fill-rule="evenodd"
+                                                d="M2.697 5.03a.9.9 0 0 1 1.273 0L8 9.06l4.03-4.03a.9.9 0 1 1 1.273 1.273L8.637 10.97a.9.9 0 0 1-1.273 0L2.697 6.303a.9.9 0 0 1 0-1.273"
+                                                clip-rule="evenodd"></path>
+                                        </svg></div>
+                                </div>
+                            </button>
+                        </div>
+                        <div class="navigation-section_listContainer">
+                            <div class="navigation-section_listContainer-column">
+                                <div class="navigation-section_list">
+                                    <a href="/" class="base_root base_size-s-regular base_variant-secondary">
+                                      Forum
+                                      
+                                        
+                                    </a>
+                                    <a href="https://1win.com/casino/1win-games?p=2p7l" target="_blank" class="base_root base_size-s-regular base_variant-secondary">
+                                      1win Games
+                                        
+                                    </a>
+                                    <a href="https://1win.com/casino4?p=2p7l" target="_blank" class="base_root base_size-s-regular base_variant-secondary">
+                                      Casino
+                                        
+                                    </a>
+                                </div>
+                                <div class="navigation-section_list">
+                                    <a href="https://1win.com/betting?p=2p7l" target="_blank" class="base_root base_size-s-regular base_variant-secondary">
+                                      Betting
+                                        
+                                    </a>
+                                    <a href="https://1win.com/casino/live-games?p=2p7l" target="_blank" class="base_root base_size-s-regular base_variant-secondary">
+                                      Live Games
+                                         
+                                    </a>
+                                    <a  href="https://1win.com/casino/poker?p=2p7l" target="_blank" сlass="base_root base_size-s-regular base_variant-secondary">
+                                      Poker
+                                        
+                                    </a>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+                <div class="navigation-section_root">
+                    <div class="accordion-heading_root">
+                        <div class="accordion-heading_content">Other</div><button
+                            class="base_root base_size-m-semibold base_variant-secondary" type="button">
+                            <div style="display: contents;">
+                                <div class="icon-box_root icon-box_size-m"><svg xmlns="http://www.w3.org/2000/svg"
+                                        viewBox="0 0 16 16" role="presentation"
+                                        class="icon-base_root-ZOL7i accordion-heading_icon" width="16" height="16">
+                                        <path fill-rule="evenodd"
+                                            d="M2.697 5.03a.9.9 0 0 1 1.273 0L8 9.06l4.03-4.03a.9.9 0 1 1 1.273 1.273L8.637 10.97a.9.9 0 0 1-1.273 0L2.697 6.303a.9.9 0 0 1 0-1.273"
+                                            clip-rule="evenodd"></path>
+                                    </svg></div>
+                            </div>
+                        </button>
+                    </div>
+                    <div class="navigation-section_listContainer">
+                        <div class="navigation-section_list">
+                            <a href="/rules/" class="base_root base_size-s-regular base_variant-secondary">
+                               Forum Rules
+                                
+                            </a>
+                            <a href="/privacy-policy/" class="base_root base_size-s-regular base_variant-secondary">
+                               Privacy Policy
+                               
+                            </a>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="app-section_root">
+                    <div class="navigation-section_root active">
+                        <div class="accordion-heading_root">
+                                <div class="accordion-heading_content">About 1win Forum</div>
+                              	<button  class="base_root base_size-m-semibold base_variant-secondary" type="button">
+                                    <div style="display: contents;">
+                                        <div class="icon-box_root icon-box_size-m"><svg xmlns="http://www.w3.org/2000/svg"
+                                                viewBox="0 0 16 16" role="presentation"
+                                                class="icon-base_root-ZOL7i accordion-heading_icon" width="16" height="16">
+                                                <path fill-rule="evenodd"
+                                                    d="M2.697 5.03a.9.9 0 0 1 1.273 0L8 9.06l4.03-4.03a.9.9 0 1 1 1.273 1.273L8.637 10.97a.9.9 0 0 1-1.273 0L2.697 6.303a.9.9 0 0 1 0-1.273"
+                                                    clip-rule="evenodd"></path>
+                                            </svg></div>
+                                    </div>
+                                </button>
+                            </div>
+                        <div class="navigation-section_listContainer">
+                            <p>
+                              	Forum 1win — the best platform for the iGaming community. Our mission is to provide you with a comfortable, open and productive discussion and to create a free communication space for every player. Whether you want to share your winning strategy, discuss a game, find like-minded people, or simply talk, welcome to the Forum! Here you can share your gaming experience, discuss the latest industry news, stay updated on platform changes, and enjoy engaging conversations. Meet, socialise and join promotions — become part of the 1win community.
+                             </p>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+            <div class="bottom-row_root">
+                <div class="bottom-row_socialAndLicensesBlock">
+
+                    <div class='yt__acme_header__social'>
+                        
+
+<ul class='yt__acme_social'>
+  
+  <li class='yt__acme_social-twitter'><a href='https://twitter.com/1winPro' data-ipstooltip="" _title="Twitter" target="_blank"></a></li>
+  <li class='yt__acme_social-dribbble'><a href='https://t.me/casino_1w_bot' data-ipstooltip="" _title="Telegram" target="_blank"></a></li>
+  
+  
+  
+  
+  <li class='yt__acme_social-instagram'><a href='https://www.instagram.com/1win.global?igsh=aTdvZjVvOG82NjRx' data-ipstooltip="" _title="Instagram" target="_blank"></a></li>
+  
+</ul>
+
+                    </div>
+                </div>
+            </div>
+            <div class="copyright_root"><span class="copyright_copyright">© 2025 1win.</span><span
+                    class="copyright_age">18+</span></div>
+        </div>
+
+    </footer>
+</div>
+
+<script>
+  
+  document.addEventListener("DOMContentLoaded", function(){
+      
+      OpentooltipTrigger();
+      OpenFooterMenu();
+      redirectionLand();
+  });
+
+
+
+
+    const OpentooltipTrigger = () => {
+        const tooltipRoots = document.querySelectorAll(".tooltip_root");
+
+       
+        document.addEventListener('keydown', (event) => {
+            if (event.key === 'Escape') {
+                tooltipRoots.forEach((tooltipRoot) => {
+                    tooltipRoot.classList.remove("tooltip_root--active");
+                });
+            }
+        });
+        document.addEventListener('click', (event) => {
+            tooltipRoots.forEach((tooltipRoot) => {
+                
+                if (!tooltipRoot.contains(event.target)) {
+                    tooltipRoot.classList.remove("tooltip_root--active");
+                }
+            });
+        });
+
+        tooltipRoots.forEach((tooltipRoot) => {
+            const tooltipTrigger = tooltipRoot.querySelector(".tooltip_trigger");
+            const closeButton = tooltipRoot.querySelector(".tooltip__close");
+
+            
+            if (tooltipTrigger) {
+                tooltipTrigger.addEventListener("click", function (event) {
+                    event.stopPropagation(); 
+                    tooltipRoot.classList.toggle("tooltip_root--active");
+                });
+            }
+
+            
+            if (closeButton) {
+                closeButton.addEventListener("click", function (event) {
+                    event.stopPropagation();
+                    tooltipRoot.classList.remove("tooltip_root--active");
+                });
+            }
+        });
+    };
+
+    const OpenFooterMenu = () => {
+        const navigationSectionRoot = document.querySelectorAll(".navigation-section_root");
+
+        navigationSectionRoot.forEach(elem => {
+            elem.addEventListener("click", function () {
+                elem.classList.toggle("active")
+            })
+        })
+    }
+
+</script>
+        </footer>
+		
+
+<div id="elMobileDrawer" class="ipsDrawer ipsHide">
+	<div class="ipsDrawer_menu">
+		<a href="#" class="ipsDrawer_close" data-action="close"><span>×</span></a>
+		<div class="ipsDrawer_content ipsFlex ipsFlex-fd:column">
+<ul id="elUserNav_mobile" class="ipsList_inline signed_in ipsClearfix">
+	
+
+
+</ul>
+
+			
+
+			
+
+			
+
+			<ul class="ipsDrawer_list">
+				
+
+				
+				
+				
+				
+					
+						
+						
+							<li><a href="/" >
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--1">
+  
+</div>
+        
+    </div>
+Forum</a></li>
+						
+					
+				
+					
+						
+						
+							<li><a href="https://1win-resmi.com/casino?p=2p7l" target="_blank"  rel="noopener" >
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--2">
+  
+</div>
+        
+    </div>
+Casino </a></li>
+						
+					
+				
+					
+						
+						
+							<li><a href="https://1win-resmi.com/betting/?p=2p7l" target="_blank"  rel="noopener" >
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--3">
+  
+</div>
+        
+    </div>
+Betting</a></li>
+						
+					
+				
+					
+						
+						
+							<li><a href="https://1win-resmi.com/free-money/?p=2p7l" target="_blank"  rel="noopener" >
+
+
+    <div class='ipsMenuIcon ipsMenuIconType_custom'>
+        
+            <div class="icon_menu icon_menu--4">
+  
+</div>
+        
+    </div>
+Free Money</a></li>
+						
+					
+				
+				
+			</ul>
+           <div class="mobile-toggle-theme">
+
+             </div>
+          <div class="ipsDrawer__footer">
+           <div class="yt__acme_header__social">
+           
+
+<ul class='yt__acme_social'>
+  
+  <li class='yt__acme_social-twitter'><a href='https://twitter.com/1winPro' data-ipstooltip="" _title="Twitter" target="_blank"></a></li>
+  <li class='yt__acme_social-dribbble'><a href='https://t.me/casino_1w_bot' data-ipstooltip="" _title="Telegram" target="_blank"></a></li>
+  
+  
+  
+  
+  <li class='yt__acme_social-instagram'><a href='https://www.instagram.com/1win.global?igsh=aTdvZjVvOG82NjRx' data-ipstooltip="" _title="Instagram" target="_blank"></a></li>
+  
+</ul>
+
+          </div>
+            <div class="tooltip_root" style="display: none">
+    <div class="tooltip_trigger">
+        
+        <svg width="20" height="20" viewbox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M10 20C15.5228 20 20 15.5228 20 10C20 4.47715 15.5228 0 10 0C4.47715 0 0 4.47715 0 10C0 15.5228 4.47715 20 10 20Z" fill="#0034B0" style="fill:#0034B0;fill:color(display-p3 0.0000 0.2039 0.6902);fill-opacity:1;"></path>
+            <path d="M16.5572 2.44934L10.0004 7.21787L3.44374 2.44935C2.30594 3.43822 1.39382 4.68002 0.794942 6.08719L6.17502 9.99998L0.794922 13.9128C1.3938 15.32 2.3059 16.5618 3.4437 17.5506L10.0004 12.7821L16.5572 17.5506C17.695 16.5618 18.6071 15.32 19.2059 13.9128L13.8258 9.99998L19.2059 6.08718C18.6071 4.68 17.695 3.43822 16.5572 2.44934Z" fill="#E9EBEF" style="fill:#E9EBEF;fill:color(display-p3 0.9137 0.9216 0.9373);fill-opacity:1;"></path>
+            <path d="M17.1145 2.97168L10.0009 8.14519L2.88735 2.97168C2.18398 3.68352 1.5867 4.50039 1.12113 5.39665L7.45064 9.99994L1.12109 14.6033C1.58666 15.4995 2.18395 16.3164 2.8873 17.0283L10.0009 11.8547L17.1145 17.0283C17.8179 16.3164 18.4152 15.4995 18.8808 14.6033L12.5512 9.99994L18.8807 5.39665C18.4152 4.50038 17.8178 3.68352 17.1145 2.97168Z" fill="#C8102E" style="fill:#C8102E;fill:color(display-p3 0.7843 0.0627 0.1804);fill-opacity:1;"></path>
+            <path d="M13.125 19.502V13.125H19.502C19.8251 12.1418 20 11.0913 20 10C20 8.90868 19.8251 7.85819 19.502 6.875H13.125V0.497974C12.1418 0.174816 11.0913 0 10 0C8.90868 0 7.85819 0.174816 6.875 0.497974V6.875H0.497974C0.174816 7.85819 0 8.90868 0 10C0 11.0913 0.174816 12.1418 0.497974 13.125H6.875V19.502C7.85819 19.8251 8.90868 20 10 20C11.0913 20 12.1418 19.8251 13.125 19.502Z" fill="#E9EBEF" style="fill:#E9EBEF;fill:color(display-p3 0.9137 0.9216 0.9373);fill-opacity:1;"></path>
+            <path d="M11.25 19.9226V11.25H19.9226C19.9737 10.8405 20 10.4233 20 10C20 9.57668 19.9737 9.15949 19.9226 8.75H11.25V0.0773656C10.8405 0.0263036 10.4233 0 10 0C9.57668 0 9.15949 0.0263047 8.74999 0.0773689V8.75H0.0773672C0.0263041 9.15949 0 9.57668 0 10C0 10.4233 0.0263041 10.8405 0.0773672 11.25H8.74999V19.9226C9.15949 19.9737 9.57668 20 10 20C10.4233 20 10.8405 19.9737 11.25 19.9226Z" fill="#C8102E" style="fill:#C8102E;fill:color(display-p3 0.7843 0.0627 0.1804);fill-opacity:1;"></path>
+        </svg>
+        <span>EN</span>
+        
+
+    </div>
+    <div class="tooltip_tooltip tooltip_tooltip--mobile-left">
+        <div class="tooltip_arrow"></div>
+        <div class="tooltip__header">
+            <div class="tooltip__title">
+                Языки
+            </div>
+            <div class="tooltip__close">
+    
+            </div>
+        </div>
+        <div class="tooltip__body">
+            
+            
+        </div>
+    </div>
+</div>
+
+
+			
+		</div>
+	</div>
+</div>
+</div>
+<div id="elMobileCreateMenuDrawer" class="ipsDrawer ipsHide">
+	<div class="ipsDrawer_menu">
+		<a href="#" class="ipsDrawer_close" data-action="close"><span>×</span></a>
+		<div class="ipsDrawer_content ipsSpacer_bottom ipsPad">
+			<ul class="ipsDrawer_list">
+				<li class="ipsDrawer_listTitle ipsType_reset">Create New...</li>
+				
+			</ul>
+		</div>
+	</div>
+</div>
+
+		
+        
+
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+  <script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/set_resources_3/da589aa60ac18256220144fcb5ad01c1_swiper.min.js.gz'></script>
+
+<script type="text/javascript">
+!function(e,n,t){"use strict";var o='https://fonts.googleapis.com/css?family=Exo 2:300,400,500,600, https://fonts.googleapis.com/css?family=Exo 2:300,400,500,600,',r="__3perf_googleFontsStylesheet";function c(e){(n.head||n.body).appendChild(e)}function a(){var e=n.createElement("link");e.href=o,e.rel="stylesheet",c(e)}function f(e){if(!n.getElementById(r)){var t=n.createElement("style");t.id=r,c(t)}n.getElementById(r).innerHTML=e}e.FontFace&&e.FontFace.prototype.hasOwnProperty("display")?(t[r]&&f(t[r]),fetch(o).then(function(e){return e.text()}).then(function(e){return e.replace(/@font-face {/g,"@font-face{font-display:swap;")}).then(function(e){return t[r]=e}).then(f).catch(a)):a()}(window,document,localStorage);
+</script>
+
+
+<script type="text/javascript">
+    jQuery(document).ready(function($){
+        $("a[href='#top']").click(function() {
+        $("html, body").animate({ scrollTop: 0 }, "slow");
+           return false;
+        });
+     });
+</script>
+
+
+<script type="text/javascript">
+jQuery(document).ready(function($){
+var btn = $('#yt__acme_goup');
+
+$(window).scroll(function() {
+  if ($(window).scrollTop() > 300) {
+    btn.addClass('show');
+  } else {
+    btn.removeClass('show');
+  }
+});
+
+btn.on('click', function(e) {
+  e.preventDefault();
+  $('html, body').animate({scrollTop:0}, '300');
+});
+});
+</script>
+
+		
+
+	
+	<script type='text/javascript'>
+		var ipsDebug = false;		
+	
+		var CKEDITOR_BASEPATH = '//forum.1win.com/applications/core/interface/ckeditor/ckeditor/';
+	
+		var ipsSettings = {
+			
+			
+			cookie_path: "/",
+			
+			cookie_prefix: "ips4_",
+			
+			
+			cookie_ssl: true,
+			
+            essential_cookies: ["oauth_authorize","member_id","login_key","clearAutosave","lastSearch","device_key","IPSSessionFront","loggedIn","noCache","hasJS","cookie_consent","cookie_consent_optional","forumpass_*","cm_reg","location","currency","guestTransactionKey"],
+			upload_imgURL: "",
+			message_imgURL: "",
+			notification_imgURL: "",
+			baseURL: "//forum.1win.com/",
+			jsURL: "//forum.1win.com/applications/core/interface/js/js.php",
+			csrfKey: "0310c16391eb3864069f36422f022042",
+			antiCache: "4a676ae7ca1777471625",
+			jsAntiCache: "4a676ae7ca1786430357",
+			disableNotificationSounds: true,
+			useCompiledFiles: true,
+			links_external: true,
+			memberID: 0,
+			lazyLoadEnabled: true,
+			blankImg: "/applications/core/interface/js/spacer.png",
+			googleAnalyticsEnabled: false,
+			matomoEnabled: false,
+			viewProfiles: true,
+			mapProvider: 'none',
+			mapApiKey: '',
+			pushPublicKey: null,
+			relativeDates: true
+		};
+		
+		
+		
+		
+			ipsSettings['maxImageDimensions'] = {
+				width: 1000,
+				height: 750
+			};
+		
+		
+	</script>
+
+
+
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_global/root_library.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_global/root_js_lang_1.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_global/root_framework.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_core/global_global_core.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_core/plugins_plugins.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_global/root_front.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_core/front_front_core.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_gallery/front_front_browse.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_forums/front_front_forum.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+<script type='text/javascript' src='//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/javascript_global/root_map.js.gz?v=4a676ae7ca1786430357' data-ips></script>
+
+
+
+	<script type='text/javascript'>
+		
+			ips.setSetting( 'date_format', jQuery.parseJSON('"mm\/dd\/yy"') );
+		
+			ips.setSetting( 'date_first_day', jQuery.parseJSON('0') );
+		
+			ips.setSetting( 'ipb_url_filter_option', jQuery.parseJSON('"none"') );
+		
+			ips.setSetting( 'url_filter_any_action', jQuery.parseJSON('"moderate"') );
+		
+			ips.setSetting( 'bypass_profanity', jQuery.parseJSON('0') );
+		
+			ips.setSetting( 'emoji_style', jQuery.parseJSON('"native"') );
+		
+			ips.setSetting( 'emoji_shortcodes', jQuery.parseJSON('true') );
+		
+			ips.setSetting( 'emoji_ascii', jQuery.parseJSON('true') );
+		
+			ips.setSetting( 'emoji_cache', jQuery.parseJSON('1754640973') );
+		
+			ips.setSetting( 'image_jpg_quality', jQuery.parseJSON('90') );
+		
+			ips.setSetting( 'cloud2', jQuery.parseJSON('false') );
+		
+			ips.setSetting( 'isAnonymous', jQuery.parseJSON('false') );
+		
+		
+        
+    </script>
+
+
+
+<script type='application/ld+json'>
+{
+    "@context": "http://www.schema.org",
+    "publisher": "https://forum.1win.com/#organization",
+    "@type": "WebSite",
+    "@id": "https://forum.1win.com/#website",
+    "mainEntityOfPage": "https://forum.1win.com/",
+    "name": "1win Forum",
+    "url": "https://forum.1win.com/",
+    "potentialAction": {
+        "type": "SearchAction",
+        "query-input": "required name=query",
+        "target": "https://forum.1win.com/search/?q={query}"
+    },
+    "inLanguage": [
+        {
+            "@type": "Language",
+            "name": "English (USA)",
+            "alternateName": "en-US"
+        }
+    ]
+}	
+</script>
+
+<script type='application/ld+json'>
+{
+    "@context": "http://www.schema.org",
+    "@type": "Organization",
+    "@id": "https://forum.1win.com/#organization",
+    "mainEntityOfPage": "https://forum.1win.com/",
+    "name": "1win Forum",
+    "url": "https://forum.1win.com/",
+    "logo": {
+        "@type": "ImageObject",
+        "@id": "https://forum.1win.com/#logo",
+        "url": "//web-k8s-forum-prod.s3.eu-central-1.amazonaws.com/uploads/monthly_2025_11/logo.png.cd90f035f2e129b7ed3666e66dc2de32.png"
+    }
+}	
+</script>
+
+<script type='application/ld+json'>
+{
+    "@context": "http://schema.org",
+    "@type": "ContactPage",
+    "url": "https://forum.1win.com/contact/"
+}	
+</script>
+
+
+
+<script type='text/javascript'>
+    (() => {
+        let gqlKeys = [];
+        for (let [k, v] of Object.entries(gqlKeys)) {
+            ips.setGraphQlData(k, v);
+        }
+    })();
+
+
+
+</script>
+
+<script>
+$(document).ready(function() {
+    $(".js-cSearchSubmit").on("click", function(e) {
+        if(!$(this).closest("form").hasClass("active-elSearch")) {
+            e.preventDefault();
+            $(this).closest("form").addClass("active-elSearch");
+        }
+    })
+})
+
+
+$(document).mouseup(function(e) {
+
+var forms = $(".active-elSearch");
+if (forms.has(e.target).length === 0) {
+    forms.removeClass("active-elSearch")
+}
+
+
+
+});
+
+</script>
+		
+		<!--ipsQueryLog-->
+		<!--ipsCachingLog-->
+		
+		
+		
+        
+     <script>
+        document.body.addEventListener('click', function(e) {
+          if (e.target && e.target.matches('.select-date-js')) {          
+            const dateInput = e.target.previousElementSibling;
+            if (dateInput) {
+              if (dateInput.showPicker) {
+                dateInput.showPicker();
+              } else {
+                dateInput.focus();
+              }
+            }
+          }
+        });
+      </script>
+	<script>(function(){function c(){var b=a.contentDocument||(a.contentWindow&&a.contentWindow.document);if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'a29ebfeb0f31988d',t:'MTc4NjUzMDA0OQ=='};var a=document.createElement('script');a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
+user@user-Latitude-3380:~$ 
+

@@ -1,0 +1,3 @@
+curl -i -s -A "Mozilla/5.0" "https://forum.1win.com"
+curl -i -s -A "Mozilla/5.0" "https://forum.1win.com.index.php"
+curl -i -s -L -A "Mozilla/5.0" "https://1win.com" | head -n 25
