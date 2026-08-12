@@ -1,0 +1,1 @@
+"betting":{"real":{"enabled":true,"maxBetWin":80000000,"maxBetWinCurrencyMap":{"XAF":80000000},"maxItems":60,"minStake":1,"minStakeCurrencyMap":{"XAF":1},"precision":2,"stakeDisplayType":"STAKE","whtDisplayType":"WHT"},

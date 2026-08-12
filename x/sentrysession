@@ -1,0 +1,19 @@
+POST /api/4509988594384896/envelope/?sentry_version=7&sentry_key=7dbd827f7c2773299b99ce1c442758d5&sentry_client=sentry.javascript.nextjs%2F10.33.0 HTTP/2
+Host: o318738.ingest.us.sentry.io
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Content-Type: text/plain;charset=UTF-8
+Referer: https://www.betpawa.cm/
+Content-Length: 451
+Origin: https://www.betpawa.cm
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: cross-site
+Priority: u=6
+Te: trailers
+
+{"sent_at":"2026-08-12T20:17:42.711Z","sdk":{"name":"sentry.javascript.nextjs","version":"10.33.0"}}
+{"type":"session"}
+{"sid":"d03e8c06ebc44637b2cd4fbcc5ca0889","init":false,"started":"2026-08-12T20:16:52.885Z","timestamp":"2026-08-12T20:17:42.710Z","status":"exited","errors":0,"attrs":{"release":"frontend-react-web@2.238.87","environment":"production","user_agent":"Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0"}}

@@ -1,0 +1,21 @@
+GET /api/sportsbook/v3/booking-number/12345ab HTTP/2
+Host: www.betpawa.cm
+Cookie: bp_country=CM; _ga_81NDDTKQDC=GS2.1.s1786557897$o93$g1$t1786558523$j60$l0$h0; _ga=GA1.1.769090971.1773906054; _clck=xn38db%5E2%5Eg5e%5E0%5E2269; _gcl_au=1.1.1150286962.1781692842; __cf_bm=CbAntCQNnorP7RAVLyIIJKB7HYSHgEnYHkbBoGrfOfA-1786557887.718396-1.0.1.1-SEd6HaFLkW7J96AlIyOoxzltycCCQaNXrJDznSMouBJCEZklFxgvKHGW0pOmEvM9wXRMJK0K5h4TV.wqRB_gzxSTyNrzMqzX72Csr64y4neyEAM9eQe9HOa8RtxFAOxy
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0
+Accept: application/x-protobuf
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Referer: https://www.betpawa.cm/
+Traceid: a9ad9f2a-08c8-485d-a38e-abe6ab130496
+Devicetype: web
+X-Device-Fingerprint: 730fda5454eac15256515aeb0fbcdd88
+Content-Type: application/x-protobuf
+X-Pawa-Brand: betpawa-cameroon
+X-Pawa-Language: en
+Sentry-Trace: 39f032c008144d1d92b63303aabf6f6f-ae10a0c2be3f604b-0
+Baggage: sentry-environment=production,sentry-release=frontend-react-web%402.238.87,sentry-public_key=7dbd827f7c2773299b99ce1c442758d5,sentry-trace_id=39f032c008144d1d92b63303aabf6f6f,sentry-org_id=318738,sentry-transaction=%2F%5B%5B...page%5D%5D,sentry-sampled=false,sentry-sample_rand=0.36062735499366727,sentry-sample_rate=0.1
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Priority: u=0
+Te: trailers

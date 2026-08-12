@@ -1,0 +1,50 @@
+To inspect and manipulate WebSocket traffic in Burp Suite, you do not use the standard HTTP History tab. Because WebSockets maintain a constant, open connection line rather than sending individual request/response cycles, Burp Suite routes them into a dedicated tracking lane. [1, 2, 3] 
+Here is the step-by-step guide to capturing, modifying, and fuzzing live WebSocket streams.
+------------------------------
+## Step 1: Intercepting Live WebSocket Streams
+
+   1. Open your browser and route your traffic securely through your Burp Suite proxy interface.
+   2. Navigate to your target application (such as a live betting dashboard or a streaming forum portal).
+   3. In Burp Suite, click on the Proxy tab on the top menu bar.
+   4. Look directly below it and select the sub-tab labeled WebSockets history. [4, 5] 
+
+As the application pushes real-time data updates, this interface panel will fill with message parameters.
+------------------------------
+## Step 2: Reading the Data Grid Direction Matrix
+Inside the WebSockets history layout tab, look at the Direction column to analyze how the microservices communicate:
+
+* To client (Outgoing from Server): The backend database server is sending a message update (e.g., updating live match scores or forum notification indicators) down to the user's browser view.
+* To server (Incoming from Client): The user's browser session is transmitting an instruction up to the processing node (e.g., clicking a chat module button or initiating a game state change).
+
+Click on any row parameter to review the raw data payload text inside the lower preview window block.
+------------------------------
+## Step 3: Modifying Data Payloads in Real-Time (Interception)
+To manipulate WebSocket attributes to test for Business Logic or Parameter Tampering bugs:
+
+   1. Navigate to the Proxy -> Intercept sub-tab interface. [6] 
+   2. Click the Intercept is off button to switch it to Intercept is on. [7] 
+   3. By default, Burp Suite blocks standard HTTP traffic but might pass WebSockets. To ensure it captures them, go to Settings (or Proxy Options in older versions), scroll down to Intercept WebSockets Messages, and ensure Intercept client-to-server and Intercept server-to-client options are fully checked. [8, 9] 
+   4. Execute an action inside your browser app.
+   5. The transaction packet will freeze inside your Burp Suite window. Alter the parameters (like changing a user identifier number or item value amount) and click Forward to transmit the modified payload to the server node. [10] 
+
+------------------------------
+## Step 4: Fuzzing WebSockets via the Burp Repeater
+If you find an interesting message stream block and want to test it for security boundaries without constantly clicking buttons in the browser window:
+
+   1. Right-click on the specific target log inside your WebSockets history view tab.
+   2. Select Send to Repeater (or press CTRL + R).
+   3. Navigate over to the Repeater panel on the top task header menu.
+   4. You will see an active connection stream. You can modify the text arguments directly inside the editor box and click the Send button.
+   5. The backend connection stays alive natively, and the responding return payloads will instantly print out inside your terminal tracking column window. [11, 12, 13] 
+
+------------------------------
+## 📡 High-Signal Bugs to Target inside WebSockets
+When you audit these live message strings inside Burp Suite, look explicitly for three vulnerable conditions:
+
+* Insecure Direct Object Reference (IDOR): Look for message values passing parameters like {"user_id": 10517, "action": "view_profile"}. If altering the number to 1 returns the configuration profile fields of the root site administrator, the endpoint fails to validate authorization bounds.
+* Cross-Site WebSocket Hijacking (CSWSH): If the initial upgrade handshake request headers (HTTP 101 Switching Protocols) fail to enforce strict CSRF tokens or allow arbitrary Origin: https://evil-attacker.com inputs, an attacker can hijack the data connection stream. [14] 
+* SQL Injection / Cross-Site Scripting (XSS): Fuzz input message strings by inserting special control characters (like single quotes ' or script tags <script>) to verify if the real-time parsing engine handles data parameters safely. [15] 
+
+Would you like to write a Python script block utilizing websockets to automate testing these live parameter connections directly outside of Burp Suite?
+
+

@@ -1,0 +1,26 @@
+POST /api/user/v3/signup-and-authenticate HTTP/2
+Host: www.betpawa.cm
+Cookie: bp_country=CM; _ga_81NDDTKQDC=GS2.1.s1786557897$o93$g1$t1786559027$j36$l0$h0; _ga=GA1.1.769090971.1773906054; _clck=xn38db%5E2%5Eg5e%5E0%5E2269; _gcl_au=1.1.1150286962.1781692842; __cf_bm=X2.rWhhGfIfFv1I1kP8jBmKF_YniBQXTNnBclce9dco-1786558799.4067342-1.0.1.1-jKNStafxbjaaSBNStbWGK7.X9AlAY_49xKuzzxFTPP34D1C4z5layxSf3lf6BL2wUZurAZL9zafb4BNdJh784C0gir1tJbkBtYdyrZJNvF8Sput7hgdrqX1A3T3cqRT7
+User-Agent: Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:153.0) Gecko/20100101 Firefox/153.0
+Accept: */*
+Accept-Language: en-US,en;q=0.9
+Accept-Encoding: gzip, deflate, br
+Content-Type: application/json
+Content-Length: 60
+Referer: https://www.betpawa.cm/join-now
+Traceid: a9ad9f2a-08c8-485d-a38e-abe6ab130496
+Devicetype: web
+X-Device-Fingerprint: 730fda5454eac15256515aeb0fbcdd88
+X-Pawa-Brand: betpawa-cameroon
+X-Pawa-Language: en
+Sentry-Trace: a5356513ea3d46a4b60bd4fa4af9e91d-ab7a74f5cf23615f-0
+Baggage: sentry-environment=production,sentry-release=frontend-react-web%402.238.87,sentry-public_key=7dbd827f7c2773299b99ce1c442758d5,sentry-trace_id=a5356513ea3d46a4b60bd4fa4af9e91d,sentry-org_id=318738,sentry-transaction=%2Fjoin-now,sentry-sampled=false,sentry-sample_rand=0.9674282720300821,sentry-sample_rate=0.1
+Origin: https://www.betpawa.cm
+Sec-Fetch-Dest: empty
+Sec-Fetch-Mode: cors
+Sec-Fetch-Site: same-origin
+Cf-Turnstile-Response: 
+Priority: u=0
+Te: trailers
+
+{"country":"CM","phoneNumber":"675647845","password":"1234"}
